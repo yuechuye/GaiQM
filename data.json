@@ -1,37 +1,887 @@
 {
   "guns": [
     {
-      "name": "M4A1",
+      "name": "SVTH精确射手步枪",
       "codes": [
         {
-          "code": "M4A1-CT-001",
-          "description": "高精度远程配置，适合中远距离点射",
-          "value": 15000
+          "code": "SVCH精确射手步枪-烽火地带-6KFKI3801883AA47LLRBF",
+          "description": "金枪客提交方案",
+          "value": 330000
         },
         {
-          "code": "M4A1-CQB-002",
-          "description": "近战快速反应配置，提升射速和腰射精度",
-          "value": 12000
+          "code": "6KG5VKG0FK0QAL42R380N",
+          "description": "YJJ同款",
+          "value": 530000
         },
         {
-          "code": "M4A1-ALL-003",
-          "description": "全能均衡配置，兼顾精度与机动性",
-          "value": 18000
+          "code": "6KFK0US092PMAH1SNTPDP",
+          "description": "昊天同款",
+          "value": 590000
+        },
+        {
+          "code": "SVCH精确射手步枪-烽火地带-6KFPGB00A113BF55PC7H9",
+          "description": "",
+          "value": 610000
+        },
+        {
+          "code": "6KFF6J80AV0Q0KA8PRGCH",
+          "description": "天霸Mad98同款",
+          "value": 600000
         }
       ]
     },
     {
-      "name": "AK-47",
+      "name": "RM277突击步枪",
       "codes": [
         {
-          "code": "AK47-PWR-001",
-          "description": "暴力输出配置，最大化单发伤害",
+          "code": "RM277突击步枪-烽火地带-6KFP4AO0A113BF55PC7H9",
+          "description": "金枪客提交方案",
+          "value": 130000
+        },
+        {
+          "code": "RM277突击步枪-烽火地带-6KFKG9C01883AA47LLRBF",
+          "description": "金枪客提交方案",
+          "value": 190000
+        },
+        {
+          "code": "RM277突击步枪-烽火地带-6KFPG580A113BF55PC7H9",
+          "description": "半改",
+          "value": 270000
+        },
+        {
+          "code": "RM277突击步枪-烽火地带-6KFLPBK01RINE2HG7DHR2",
+          "description": "二倍",
+          "value": 340000
+        },
+        {
+          "code": "RM277突击步枪-烽火地带-6KFJV3802J36P5VQP998C",
+          "description": "二倍",
+          "value": 400000
+        },
+        {
+          "code": "RM277突击步枪-烽火地带-6KFPG3G0A113BF55PC7H9",
+          "description": "",
+          "value": 470000
+        },
+        {
+          "code": "RM277突击步枪-烽火地带-6KFLDF001883AA47LLRBF",
+          "description": "金枪客战斗方案",
+          "value": 500000
+        }
+      ]
+    },
+    {
+      "name": "M82狙击步枪",
+      "codes": [
+        {
+          "code": "M82狙击步枪-烽火地带-6JOLIOO092PMAH1SNTPDP",
+          "description": "",
+          "value": 570000
+        },
+        {
+          "code": "M82狙击步枪-全面战场-6JTK8JO087KKF9T2HJCH4",
+          "description": "",
+          "value": 1637
+        }
+      ]
+    },
+    {
+      "name": "AR57突击步枪",
+      "codes": [
+        {
+          "code": "AR57突击步枪-烽火地带-6JOQ5E00593VB3OTQ4TKF",
+          "description": "金枪客提交方案",
+          "value": 150000
+        },
+        {
+          "code": "6JPCO2K024JT398JLMEUF",
+          "description": "满腰射",
+          "value": 260000
+        },
+        {
+          "code": "AR57突击步枪-烽火地带-6JO0PH802008JCMHSDNLP",
+          "description": "",
+          "value": 270000
+        },
+        {
+          "code": "AR57突击步枪-烽火地带-6JOB6N40D4KUUL8R5A9D9",
+          "description": "3倍镜·高操控",
+          "value": 340000
+        },
+        {
+          "code": "AR57突击步枪-烽火地带-6JO0PQO02008JCMHSDNLP",
+          "description": "",
+          "value": 400000
+        },
+        {
+          "code": "AR57突击步枪-烽火地带-6JPR3E801M8C3V6N6VPPV",
+          "description": "YJJ同款·满腰射",
+          "value": 370000
+        },
+        {
+          "code": "AR57突击步枪-烽火地带-6JO74M803FF9VSR5S0OTO",
+          "description": "2/4倍镜",
+          "value": 480000
+        },
+        {
+          "code": "AR57突击步枪-全面战场-6JP3QE003RV6BS6LO9GEE",
+          "description": "红点超稳",
+          "value": 1334
+        },
+        {
+          "code": "AR57突击步枪-全面战场-6JQ6QT406EE5N1K6SV88K",
+          "description": "大战场满改",
+          "value": 2331
+        }
+      ]
+    },
+    {
+      "name": "VSS射手步枪",
+      "codes": [
+        {
+          "code": "VSS射手步枪-烽火地带-6IRTOU8003UFIEML66NPP",
+          "description": "",
+          "value": 210000
+        },
+        {
+          "code": "VSS射手步枪-烽火地带-6JBHNIK0FUH1E5MQ63E4O",
+          "description": "红点",
+          "value": 270000
+        },
+        {
+          "code": "VSS射手步枪-烽火地带-6JAPRKC024JT398JLMEUF",
+          "description": "",
+          "value": 390000
+        }
+      ]
+    },
+    {
+      "name": "FS-12霰弹枪",
+      "codes": [
+        {
+          "code": "FS-12霰弹枪-烽火地带-6IUMT9S08T16JCU0J1S9V",
+          "description": "",
+          "value": 140000
+        },
+        {
+          "code": "6IV3L3S05M97O1SEPETDL",
+          "description": "",
+          "value": 200000
+        },
+        {
+          "code": "FS-12霰弹枪-烽火地带-6IULRG006S5HCI6L9NAJQ",
+          "description": "性价比改装",
+          "value": 210000
+        },
+        {
+          "code": "FS-12霰弹枪-烽火地带-6IUMTG408T16JCU0J1S9V",
+          "description": "",
+          "value": 270000
+        },
+        {
+          "code": "6J6QRIO05VT3P3JELESO0",
+          "description": "83腰射大弹鼓",
+          "value": 370000
+        },
+        {
+          "code": "FS-12霰弹枪-烽火地带-6J6TTJO0AAR4RCO2FRHEQ",
+          "description": "91腰射大弹鼓",
+          "value": 390000
+        },
+        {
+          "code": "FS-12霰弹枪-烽火地带-6IUNCFO0803DF7B35AEHU",
+          "description": "95腰射·20发",
+          "value": 420000
+        }
+      ]
+    },
+    {
+      "name": "MCX LT突击步枪",
+      "codes": [
+        {
+          "code": "6IV6SLG03GFRB8J9CH4VL",
+          "description": "低配",
+          "value": 120000
+        },
+        {
+          "code": "6IV6SPG03GFRB8J9CH4VL",
+          "description": "半改",
+          "value": 170000
+        },
+        {
+          "code": "MCX LT突击步枪-烽火地带-6JEJJL00ALNJ5F5V8G2KH",
+          "description": "",
+          "value": 250000
+        },
+        {
+          "code": "6IV6SS003GFRB8J9CH4VL",
+          "description": "二倍满改",
+          "value": 390000
+        },
+        {
+          "code": "MCX LT突击步枪-烽火地带-6JCL2BS0EAJUM64QPC13U",
+          "description": "",
+          "value": 420000
+        },
+        {
+          "code": "6IUS1PK0ES1V0VO630FU4",
+          "description": "",
+          "value": 440000
+        },
+        {
+          "code": "MCX LT突击步枪-全面战场-6JA29B4013LC6NHH4S26S",
+          "description": "稳压",
+          "value": 3699
+        },
+        {
+          "code": "MCX LT突击步枪-烽火地带-6J04HIO0FFV5PHD8CRGLB",
+          "description": "【兲】半改|正据枪|30法弹匣|无镭射62操控|焰魂枪管|无隔热网|",
+          "value": 180000
+        },
+        {
+          "code": "MCX LT突击步枪-烽火地带-6J550O00FFV5PHD8CRGLB",
+          "description": "【兲】高改|无镭射快速开镜|隔热网|焰魂枪管|30发",
+          "value": 210000
+        }
+      ]
+    },
+    {
+      "name": "M870霰弹枪",
+      "codes": [
+        {
+          "code": "M870霰弹枪-烽火地带-6K01K1S059IJNRCK57D9Q",
+          "description": "多倍率",
+          "value": 50000
+        },
+        {
+          "code": "M870霰弹枪-烽火地带-6JQT26402FA1JF0E0BJHI",
+          "description": "3倍镜",
+          "value": 50000
+        }
+      ]
+    },
+    {
+      "name": "MK4冲锋枪",
+      "codes": [
+        {
+          "code": "MK4冲锋枪-烽火地带-6IQV5E401NO8GR0EM4VR1",
+          "description": "消音腰射开镜双修",
+          "value": 240000
+        },
+        {
+          "code": "6I6FFL806UPSRBSFIDPDC",
+          "description": "YJJ同款·腰射3连发",
+          "value": 230000
+        },
+        {
+          "code": "6K3QSVO049H3TLFDHMKHO",
+          "description": "全自动94腰射",
+          "value": 270000
+        },
+        {
+          "code": "MK4冲锋枪-烽火地带-6K4P80K0F4B25FN4VC5A7",
+          "description": "全自动满腰射",
+          "value": 380000
+        },
+        {
+          "code": "6I5E80008R4RKTJI3FOBI",
+          "description": "三连发枪管",
+          "value": 420000
+        },
+        {
+          "code": "6I5FKKC0BDB1NLT9V34DG",
+          "description": "开镜腰射双修·三连发枪管",
+          "value": 440000
+        }
+      ]
+    },
+    {
+      "name": "Mini-14射手步枪",
+      "codes": [
+        {
+          "code": "Mini-14射手步枪-烽火地带-6I8VVA80ASAH8NM367QOA",
+          "description": "1.5/5 可调瞄准镜",
+          "value": 180000
+        },
+        {
+          "code": "Mini-14射手步枪-烽火地带-6J8ULDO0FUH1E5MQ63E4O",
+          "description": "侧瞄红点",
+          "value": 200000
+        },
+        {
+          "code": "Mini-14射手步枪-烽火地带-6H93K9802MHJ5VQFPTPUR",
+          "description": "6/12瞄准镜",
+          "value": 230000
+        },
+        {
+          "code": "6HQN55005QO9B7G2FG9IN",
+          "description": "火控",
+          "value": 310000
+        }
+      ]
+    },
+    {
+      "name": "SKS射手步枪",
+      "codes": [
+        {
+          "code": "SKS射手步枪-烽火地带-6FEHRUO0AV5BVPK0VDMCD",
+          "description": "3/7倍镜",
+          "value": 340000
+        },
+        {
+          "code": "6HQQM3002CGRPJ9ITGHGB",
+          "description": "林树同款·火控",
+          "value": 420000
+        },
+        {
+          "code": "6HM7D900EU90O684D8QL5",
+          "description": "3.5倍镜",
+          "value": 510000
+        },
+        {
+          "code": "6JJHSIG0B1RGMGBPE1GT9",
+          "description": "3/7倍镜·XDD同款",
+          "value": 570000
+        },
+        {
+          "code": "SKS射手步枪-烽火地带-6FEHRVK0AV5BVPK0VDMCD",
+          "description": "3/7倍镜",
+          "value": 610000
+        },
+        {
+          "code": "SKS射手步枪-烽火地带-6IAA73800ER47DGFRI62S",
+          "description": "航天卡战备枪（带有战斗力）",
+          "value": 220000
+        },
+        {
+          "code": "SKS射手步枪-烽火地带-6JE7KLS09THICRHBNOQNB",
+          "description": "3.5倍无枪管 稳压版 性价比推荐",
+          "value": 330000
+        }
+      ]
+    },
+    {
+      "name": "Marlin杠杆步枪",
+      "codes": [
+        {
+          "code": "Marlin杠杆步枪-烽火地带-6HIEM2S094898G9NDDGRT",
+          "description": "腰射",
+          "value": 170000
+        },
+        {
+          "code": "杠杆式步枪-烽火地带-6I8JP2O0ARSDTHKAFPMVQ",
+          "description": "100腰射",
+          "value": 210000
+        },
+        {
+          "code": "杠杆式步枪-烽火地带-6I8JOU40ARSDTHKAFPMVQ",
+          "description": "99腰射",
+          "value": 240000
+        },
+        {
+          "code": "杠杆式步枪-烽火地带-6I8JTF00ARSDTHKAFPMVQ",
+          "description": "",
+          "value": 250000
+        },
+        {
+          "code": "6HJ5BG80FR6AJQIFQKVE3",
+          "description": "2/4倍镜",
+          "value": 320000
+        },
+        {
+          "code": "6HLN05K0CPOU5C21U0PK5",
+          "description": "我爱马林",
+          "value": 150000
+        },
+        {
+          "code": "杠杆式步枪-烽火地带-6I9C2MC05HLGIUUFSE3FU",
+          "description": "99腰射不怕近战，自带便宜八倍镜开镜抽人",
+          "value": 170000
+        }
+      ]
+    },
+    {
+      "name": "AKS-74U",
+      "codes": [
+        {
+          "code": "AKS-74U突击步枪-烽火地带-6IF9CIC08C3ND23MR2PJT",
+          "description": "",
+          "value": 60000
+        },
+        {
+          "code": "6GRTB7002GFSJ497HHJD0",
+          "description": "",
+          "value": 150000
+        },
+        {
+          "code": "6I44FE80EAKEA71T5EQPI",
+          "description": "",
+          "value": 270000
+        }
+      ]
+    },
+    {
+      "name": "CAR-15",
+      "codes": [
+        {
+          "code": "6HH7K4G024CH4QGG5QQUE",
+          "description": "",
+          "value": 80000
+        },
+        {
+          "code": "6HH7K7K024CH4QGG5QQUE",
+          "description": "消音·45发",
+          "value": 130000
+        },
+        {
+          "code": "6HIF1GG068RCCIKUV1HLS",
+          "description": "红点",
+          "value": 140000
+        },
+        {
+          "code": "6HH7JVS024CH4QGG5QQUE",
+          "description": "二倍镜",
+          "value": 160000
+        },
+        {
+          "code": "CAR-15突击步枪-全面战场-6J20R6O053J1MR71E8LOK",
+          "description": "大战场",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "name": "QSZ92G",
+      "codes": [
+        {
+          "code": "QSZ92G-烽火地带-6IT14U0066MHHVC5Q80C6",
+          "description": "跑刀必用",
+          "value": 80000
+        }
+      ]
+    },
+    {
+      "name": "沙漠之鹰",
+      "codes": [
+        {
+          "code": "6JONT4008BEE9MJC4N4B6",
+          "description": "腰射颗秒",
+          "value": 60000
+        },
+        {
+          "code": "6JONT5408BEE9MJC4N4B6",
+          "description": "腰射颗秒",
+          "value": 110000
+        },
+        {
+          "code": "沙漠之鹰-烽火地带-6IK11K003KTK601F43COS",
+          "description": "二倍",
+          "value": 180000
+        }
+      ]
+    },
+    {
+      "name": "G17",
+      "codes": [
+        {
+          "code": "6GDORHK02QIKBV894R7VJ",
+          "description": "",
+          "value": 170000
+        }
+      ]
+    },
+    {
+      "name": "M1911",
+      "codes": [
+        {
+          "code": "M1911-烽火地带-6IT12MG066MHHVC5Q80C6",
+          "description": "跑刀必备",
+          "value": 120000
+        }
+      ]
+    },
+    {
+      "name": "MK47突击步枪",
+      "codes": [
+        {
+          "code": "6HK8FU807G8S9A1C445HN",
+          "description": "低配性价比",
+          "value": 330000
+        },
+        {
+          "code": "MK47突击步枪-烽火地带-6HV5BC002UGUN7LA5AQII",
+          "description": "林树扶贫MK47",
+          "value": 400000
+        },
+        {
+          "code": "6HK7T1C07G8S9A1C445HN",
+          "description": "半改",
+          "value": 420000
+        },
+        {
+          "code": "6HJHCQG05AVGGJDT0TEJ9",
+          "description": "林树同款",
+          "value": 750000
+        },
+        {
+          "code": "6KL5TRC0FPNMK12A7SIL3",
+          "description": "酸魔同款",
+          "value": 790000
+        }
+      ]
+    },
+    {
+      "name": "M16A4突击步枪",
+      "codes": [
+        {
+          "code": "6GD1CM004J7LV61QLMNR9",
+          "description": "瞄具自选",
+          "value": 40000
+        },
+        {
+          "code": "6KE84NK0223NGCLVVEN6F",
+          "description": "急停腰射",
+          "value": 90000
+        },
+        {
+          "code": "M16A4突击步枪-烽火地带-6HCCJD80C86JSJ11LU5K6",
+          "description": "",
+          "value": 140000
+        },
+        {
+          "code": "M16A4突击步枪-烽火地带-6HGADSO0APGGNCBFQNVEF",
+          "description": "",
+          "value": 180000
+        },
+        {
+          "code": "M16A4突击步枪-烽火地带-6GRAJQS0AV5BVPK0VDMCD",
+          "description": "",
+          "value": 290000
+        },
+        {
+          "code": "M16A4突击步枪-烽火地带-6I91J1G0AO5LP6T75PVN6",
+          "description": "满腰射邪修",
+          "value": 190000
+        },
+        {
+          "code": "M16A4突击步枪-烽火地带-6J8V0S00DHE668K962NMO",
+          "description": "火控激光高操作低后座自改",
+          "value": 440000
+        }
+      ]
+    },
+    {
+      "name": "野牛冲锋枪",
+      "codes": [
+        {
+          "code": "6HGJDDK0APGGNCBFQNVEF",
+          "description": "",
+          "value": 90000
+        },
+        {
+          "code": "野牛冲锋枪-烽火地带-6H5AP2S0APGGNCBFQNVEF",
+          "description": "",
+          "value": 260000
+        },
+        {
+          "code": "6GU764G07892UEQVS5KFL",
+          "description": "71腰射",
+          "value": 1088
+        },
+        {
+          "code": "6GU763O07892UEQVS5KFL",
+          "description": "62高操控",
+          "value": 811
+        }
+      ]
+    },
+    {
+      "name": "SVD",
+      "codes": [
+        {
+          "code": "SVD狙击步枪-烽火地带-6JLHBEO06HRE2F16M6KFE",
+          "description": "",
+          "value": 190000
+        },
+        {
+          "code": "6GS5BGK064FJ19C5SGDFD",
+          "description": "火控",
+          "value": 340000
+        },
+        {
+          "code": "SVD狙击步枪-烽火地带-6JLHBGS06HRE2F16M6KFE",
+          "description": "3倍镜·主播同款",
+          "value": 380000
+        },
+        {
+          "code": "6G9472808OPOB8QKQ72I8",
+          "description": "3倍镜",
+          "value": 430000
+        },
+        {
+          "code": "SVD狙击步枪-烽火地带-6JTR41C090M5TTHNT2V2Q",
+          "description": "火控",
+          "value": 470000
+        },
+        {
+          "code": "6H7LHIS0CCQG9TBJ18T88",
+          "description": "3/7倍镜",
+          "value": 2854
+        },
+        {
+          "code": "6H424SO0F6HDCSG3521UV",
+          "description": "热成像2/4倍镜",
+          "value": 598
+        },
+        {
+          "code": "6H424U00F6HDCSG3521UV",
+          "description": "3倍镜+侧瞄",
+          "value": 250
+        }
+      ]
+    },
+    {
+      "name": "PSG-1",
+      "codes": [
+        {
+          "code": "6GS83R00F6HDCSG3521UV",
+          "description": "低倍镜",
+          "value": 330000
+        },
+        {
+          "code": "6H07HIO06GA8AHGUVS95M",
+          "description": "HAMR组合瞄准镜",
+          "value": 350000
+        },
+        {
+          "code": "PSG-1射手步枪-烽火地带-6HCM8UK0285EKE7L5LPSH",
+          "description": "林树同款",
+          "value": 450000
+        },
+        {
+          "code": "6GS832C0F6HDCSG3521UV",
+          "description": "3倍镜",
+          "value": 510000
+        },
+        {
+          "code": "6G266EC0B47DBPRUAR75R",
+          "description": "6/12倍镜",
+          "value": 4619
+        },
+        {
+          "code": "PSG-1射手步枪-烽火地带-6IV36F804929SD2KI2HVB",
+          "description": "高配满后座",
+          "value": 500000
+        }
+      ]
+    },
+    {
+      "name": "PTR-32",
+      "codes": [
+        {
+          "code": "6GCGA100AV5BVPK0VDMCD",
+          "description": "",
+          "value": 120000
+        },
+        {
+          "code": "PTR-32突击步枪-烽火地带-6KGPQGG09E8D6AMU4SEGN",
+          "description": "丐版红点",
+          "value": 170000
+        },
+        {
+          "code": "6H01T1K09MTF0NSTEEU37",
+          "description": "性价比",
+          "value": 190000
+        },
+        {
+          "code": "PTR-32突击步枪-烽火地带-6JBVQJ80A0LP3CJDNC5DK",
+          "description": "二倍镜",
+          "value": 260000
+        },
+        {
+          "code": "PTR-32突击步枪-烽火地带-6KICE1G01NO8GR0EM4VR1",
+          "description": "3.5倍镜",
+          "value": 260000
+        },
+        {
+          "code": "PTR-32突击步枪-烽火地带-6KEGK6G09E8D6AMU4SEGN",
+          "description": "二倍",
+          "value": 270000
+        },
+        {
+          "code": "PTR-32突击步枪-烽火地带-6HEAEKO006RSNPRI5LV8E",
+          "description": "",
+          "value": 270000
+        },
+        {
+          "code": "6GCGB6O0AV5BVPK0VDMCD",
+          "description": "高配红点",
+          "value": 340000
+        }
+      ]
+    },
+    {
+      "name": "KC17",
+      "codes": [
+        {
+          "code": "KC17突击步枪-烽火地带-6JIK58O0BQJPAF5O1NUHB",
+          "description": "",
+          "value": 240000
+        },
+        {
+          "code": "KC17突击步枪-烽火地带-6HGPMP8043TLQUSE9SMUO",
+          "description": "性价比",
+          "value": 240000
+        },
+        {
+          "code": "KC17突击步枪-烽火地带-6HH8PD802AMR3AEE8LQVJ",
+          "description": "纯粑粑配件，好压",
+          "value": 250000
+        },
+        {
+          "code": "6HC3BB00DPQJT0NUTT0TA",
+          "description": "低配好压",
+          "value": 250000
+        },
+        {
+          "code": "6JGTRJ004H8VFF26I43BQ",
+          "description": "半改",
+          "value": 360000
+        },
+        {
+          "code": "6JJB2O40E0LL9IRHUI52L",
+          "description": "",
+          "value": 360000
+        },
+        {
+          "code": "6JJB3VC0E0LL9IRHUI52L",
+          "description": "短管顶配",
+          "value": 550000
+        },
+        {
+          "code": "6GPHOKS094898G9NDDGRT",
+          "description": "红点稳定",
+          "value": 3303
+        },
+        {
+          "code": "6GPHOQK094898G9NDDGRT",
+          "description": "火控",
+          "value": 1836
+        },
+        {
+          "code": "6GVQH580DKPR1AESPN8DT",
+          "description": "75发大弹夹",
+          "value": 6024
+        },
+        {
+          "code": "6I5R93O06368AQ40O331N",
+          "description": "小胡的KC17",
+          "value": 340000
+        },
+        {
+          "code": "KC17突击步枪-烽火地带-6J54Q1S0FFV5PHD8CRGLB",
+          "description": "【兲】短刃枪管|30发|快速开镜|50米76%命中率",
+          "value": 300000
+        },
+        {
+          "code": "KC17突击步枪-烽火地带-6J54QBS0FFV5PHD8CRGLB",
+          "description": "【兲】短管|45发|稳压50米77命中率|快速开镜",
+          "value": 340000
+        },
+        {
+          "code": "KC17突击步枪-烽火地带-6J54R7G0FFV5PHD8CRGLB",
+          "description": "【兲】满改|快速开镜|45发|65射程|50米80命中率",
+          "value": 480000
+        },
+        {
+          "code": "KC17突击步枪-烽火地带-6JD9H7O0B229TMJSNVUS6",
+          "description": "谁用谁懂",
+          "value": 410000
+        }
+      ]
+    },
+    {
+      "name": "复合弓",
+      "codes": [
+        {
+          "code": "6HJA00C0E890GTGEERA00",
+          "description": "",
+          "value": 350000
+        },
+        {
+          "code": "6GPEAS80CQ9J5LUV083F9",
+          "description": "开镜",
+          "value": 480000
+        },
+        {
+          "code": "6GPEAT40CQ9J5LUV083F9",
+          "description": "腰射复合弓",
+          "value": 430000
+        },
+        {
+          "code": "6GPHPMS094898G9NDDGRT",
+          "description": "开镜流",
+          "value": 1724
+        },
+        {
+          "code": "6GPHQ14094898G9NDDGRT",
+          "description": "腰射流",
+          "value": 1133
+        }
+      ]
+    },
+    {
+      "name": "93R",
+      "codes": [
+        {
+          "code": "6GQG1O006S5HCI6L9NAJQ",
+          "description": "低配",
+          "value": 50000
+        },
+        {
+          "code": "6FJTS2C09480JUJG6G67D",
+          "description": "",
+          "value": 30000
+        },
+        {
+          "code": "6G7ER6G053SUNNT5TTPUV",
+          "description": "",
+          "value": 60000
+        },
+        {
+          "code": "6HS65C405BQM9JGML2H77",
+          "description": "下挂激光",
+          "value": 90000
+        }
+      ]
+    },
+    {
+      "name": ".357左轮",
+      "codes": [
+        {
+          "code": "6G9423008OPOB8QKQ72I8",
+          "description": "清图必备枪管",
           "value": 20000
         },
         {
-          "code": "AK47-CTRL-002",
-          "description": "压枪优化配置，降低后坐力提升可控性",
-          "value": 16000
+          "code": "6G9423S08OPOB8QKQ72I8",
+          "description": "可以当狙玩 3/7弹道狙击镜",
+          "value": 240000
+        }
+      ]
+    },
+    {
+      "name": "G18",
+      "codes": [
+        {
+          "code": "6G941RG08OPOB8QKQ72I8",
+          "description": "夺舍必备",
+          "value": 90000
+        },
+        {
+          "code": "6G941RG08OPOB8QKQ72I8",
+          "description": "红狼专用",
+          "value": 156512
         }
       ]
     },
@@ -39,9 +889,1739 @@
       "name": "AWM",
       "codes": [
         {
-          "code": "AWM-SN-001",
-          "description": "极限射程配置，一枪一个",
-          "value": 35000
+          "code": "6GQTNR0095HC4609S9G3Q",
+          "description": "8倍镜",
+          "value": 470000
+        },
+        {
+          "code": "6G940L008OPOB8QKQ72I8",
+          "description": "3/7倍镜",
+          "value": 500000
+        },
+        {
+          "code": "6G1IC4S0B47DBPRUAR75R",
+          "description": "6/12 弹道计算",
+          "value": 9461
+        }
+      ]
+    },
+    {
+      "name": "R93",
+      "codes": [
+        {
+          "code": "6HG9MUK08KE3E5HTC891L",
+          "description": "高操控",
+          "value": 200000
+        },
+        {
+          "code": "6HG9MSK08KE3E5HTC891L",
+          "description": "加激光",
+          "value": 230000
+        },
+        {
+          "code": "6HC1EH403HPBMKSFVT966",
+          "description": "",
+          "value": 250000
+        },
+        {
+          "code": "6G940RC08OPOB8QKQ72I8",
+          "description": "8倍镜",
+          "value": 320000
+        },
+        {
+          "code": "6G1ICBK0B47DBPRUAR75R",
+          "description": "6/12弹道计算狙击镜",
+          "value": 4706
+        },
+        {
+          "code": "R93狙击步枪-全面战场-6HS59ES04BJRSFF5TN2K7",
+          "description": "超远距大狙",
+          "value": 1654
+        },
+        {
+          "code": "6J3R8M0047B0QFTR3RLF3",
+          "description": "小胡的R9",
+          "value": 270000
+        }
+      ]
+    },
+    {
+      "name": "SV-98",
+      "codes": [
+        {
+          "code": "6GRT2JK04CJIA66M6SF7D",
+          "description": "6/12 倍镜",
+          "value": 150000
+        },
+        {
+          "code": "6G940IC08OPOB8QKQ72I8",
+          "description": "3/7倍镜",
+          "value": 220000
+        }
+      ]
+    },
+    {
+      "name": "M700",
+      "codes": [
+        {
+          "code": "M700狙击步枪-烽火地带-6H5AVTG04RRU205KP3F00",
+          "description": "火控+激光",
+          "value": 220000
+        },
+        {
+          "code": "M700狙击步枪-烽火地带-6I39BRG04IOFAFAETLT47",
+          "description": "灵眼3/7倍镜",
+          "value": 300000
+        },
+        {
+          "code": "M700狙击步枪-烽火地带-6HBP2R0027UT3MNF433RH",
+          "description": "3/7倍镜满改秒开镜",
+          "value": 370000
+        }
+      ]
+    },
+    {
+      "name": "SR-25",
+      "codes": [
+        {
+          "code": "6GRAP2S0AV5BVPK0VDMCD",
+          "description": "3/7倍镜",
+          "value": 480000
+        },
+        {
+          "code": "6FR7A9C05Q52M176M341F",
+          "description": "开镜快",
+          "value": 610000
+        },
+        {
+          "code": "6GDMVE00C56ME2PP5PQ4N",
+          "description": "3/7 弹道计算",
+          "value": 700000
+        },
+        {
+          "code": "SR-25射手步枪-烽火地带-6HR5BEC07N1D5ACEJ5M1A",
+          "description": "6/12倍镜",
+          "value": 730000
+        },
+        {
+          "code": "6G266C40B47DBPRUAR75R",
+          "description": "3/7 弹道计算",
+          "value": 8477
+        },
+        {
+          "code": "SR-25射手步枪-烽火地带-6HUE2DO0F1FA6OHOECFBN",
+          "description": "黎明握把，开镜速度足够用，后坐力也足够",
+          "value": 610000
+        }
+      ]
+    },
+    {
+      "name": "M14射手步枪",
+      "codes": [
+        {
+          "code": "M14射手步枪-烽火地带-6GQ0VK00FIAS4OUQQ081T",
+          "description": "",
+          "value": 350000
+        },
+        {
+          "code": "6G642L80BLQ2U5DJHTI14",
+          "description": "稳定红点 30发弹夹",
+          "value": 670000
+        },
+        {
+          "code": "6JRNAM808UE25KS56MUBJ",
+          "description": "",
+          "value": 700000
+        },
+        {
+          "code": "M14射手步枪-烽火地带-6JS3QUK0BIGQQKR21AT1J",
+          "description": "",
+          "value": 700000
+        },
+        {
+          "code": "M14射手步枪-烽火地带-6JS3QS80BIGQQKR21AT1J",
+          "description": "",
+          "value": 710000
+        },
+        {
+          "code": "6GTTAT000CR1N4NF83220",
+          "description": "【林树同款】稳定红点·50发",
+          "value": 740000
+        },
+        {
+          "code": "6GS8H6800QPFCLVBV3UT6",
+          "description": "增高红点·爆闪·30发",
+          "value": 740000
+        },
+        {
+          "code": "6GPJD3S01Q3CDHOR330E0",
+          "description": "主播同款·50发大弹鼓 稳定红点",
+          "value": 740000
+        },
+        {
+          "code": "6JGTE7O0DUH9KRK4V8A6Q",
+          "description": "",
+          "value": 770000
+        },
+        {
+          "code": "6GGV81O0A8D1N60LQM835",
+          "description": "增高红点·双爆闪·30发",
+          "value": 800000
+        },
+        {
+          "code": "6GPHRH4094898G9NDDGRT",
+          "description": "稳定红点",
+          "value": 2305
+        },
+        {
+          "code": "6GPHRG4094898G9NDDGRT",
+          "description": "稳定红点 50发",
+          "value": 14472
+        }
+      ]
+    },
+    {
+      "name": "PKM",
+      "codes": [
+        {
+          "code": "6G94D100FHI6PKF6C3P0U",
+          "description": "低配",
+          "value": 230000
+        },
+        {
+          "code": "PKM通用机枪-烽火地带-6JPTOI801NO8GR0EM4VR1",
+          "description": "",
+          "value": 300000
+        },
+        {
+          "code": "6G94CVO0FHI6PKF6C3P0U",
+          "description": "半改",
+          "value": 300000
+        },
+        {
+          "code": "6G94CTS0FHI6PKF6C3P0U",
+          "description": "低倍 增高 激光",
+          "value": 430000
+        },
+        {
+          "code": "6G94D0C0FHI6PKF6C3P0U",
+          "description": "3倍镜",
+          "value": 420000
+        },
+        {
+          "code": "6G2RMU40B47DBPRUAR75R",
+          "description": "红点稳定",
+          "value": 2857
+        },
+        {
+          "code": "6G1IC0C0B47DBPRUAR75R",
+          "description": "3倍架点",
+          "value": 3582
+        },
+        {
+          "code": "PKM通用机枪-全面战场-6I3VUGK0224LCBP16637G",
+          "description": "全面战场的神",
+          "value": 2657
+        },
+        {
+          "code": "PKM通用机枪-烽火地带-6IANP0K010CMFGACMR1LI",
+          "description": "腰射100 可远可近满改",
+          "value": 540000
+        },
+        {
+          "code": "PKM通用机枪-烽火地带-6HQSVMC01A0NA9ERAI6P9",
+          "description": "老飞宇同款腰射PKM",
+          "value": 410000
+        }
+      ]
+    },
+    {
+      "name": "M249",
+      "codes": [
+        {
+          "code": "6G94JAC08OPOB8QKQ72I8",
+          "description": "低配",
+          "value": 170000
+        },
+        {
+          "code": "6G94JBK08OPOB8QKQ72I8",
+          "description": "半改",
+          "value": 260000
+        },
+        {
+          "code": "6GQTG2C095HC4609S9G3Q",
+          "description": "稳定红点 45发",
+          "value": 270000
+        },
+        {
+          "code": "6G93TB408OPOB8QKQ72I8",
+          "description": "红点 高配",
+          "value": 330000
+        },
+        {
+          "code": "6GQTGE4095HC4609S9G3Q",
+          "description": "消音无后坐高配",
+          "value": 360000
+        },
+        {
+          "code": "6G5QI4C0B47DBPRUAR75R",
+          "description": "红点 60弹夹",
+          "value": 2799
+        },
+        {
+          "code": "6G5RQU80B47DBPRUAR75R",
+          "description": "3/7倍镜 架点",
+          "value": 3583
+        },
+        {
+          "code": "6I53TVK0BU4994ALOQGCV",
+          "description": "满腰射",
+          "value": 290000
+        },
+        {
+          "code": "QJB201轻机枪-烽火地带-6I5GDMC02JH0JJ7MJJCJT",
+          "description": "能要射 远射",
+          "value": 430000
+        },
+        {
+          "code": "M249轻机枪-烽火地带-6J54H2K0FFV5PHD8CRGLB",
+          "description": "【兲】半改|无枪管|45弹匣|快速开镜",
+          "value": 250000
+        },
+        {
+          "code": "6JD1S780FFV5PHD8CRGLB",
+          "description": "[兲]45发满射程|稳压一个点|绝密入门级|省钱侧瞄",
+          "value": 300000
+        }
+      ]
+    },
+    {
+      "name": "M250",
+      "codes": [
+        {
+          "code": "6GQT9G0095HC4609S9G3Q",
+          "description": "低配",
+          "value": 350000
+        },
+        {
+          "code": "M250通用机枪-烽火地带-6ICD6PC0FKQKCMETQ06U3",
+          "description": "",
+          "value": 410000
+        },
+        {
+          "code": "6GJ9F9S094898G9NDDGRT",
+          "description": "3倍镜",
+          "value": 520000
+        },
+        {
+          "code": "M250通用机枪-烽火地带-6I2ECO40ADSSDHM4GDLHD",
+          "description": "满改",
+          "value": 570000
+        },
+        {
+          "code": "6HKN7SO0486U8A7KQ48BV",
+          "description": "火控",
+          "value": 600000
+        },
+        {
+          "code": "6GJ9F8C094898G9NDDGRT",
+          "description": "满改红点 爆闪",
+          "value": 600000
+        },
+        {
+          "code": "6GPHU14094898G9NDDGRT",
+          "description": "3/7倍镜 架点",
+          "value": 5953
+        },
+        {
+          "code": "6GPHU24094898G9NDDGRT",
+          "description": "红点爆闪",
+          "value": 2178
+        }
+      ]
+    },
+    {
+      "name": "QJB201",
+      "codes": [
+        {
+          "code": "6H81SO802HPRIBOQT1054",
+          "description": "满腰射·125发弹鼓",
+          "value": 220000
+        },
+        {
+          "code": "6H81S7S02HPRIBOQT1054",
+          "description": "满腰射·125发",
+          "value": 250000
+        },
+        {
+          "code": "6GQTJKO095HC4609S9G3Q",
+          "description": "稳定红点 60发弹鼓",
+          "value": 370000
+        },
+        {
+          "code": "QJB201轻机枪-烽火地带-6KLFLP800MV2POUFL1ELR",
+          "description": "高倍满腰射",
+          "value": 540000
+        },
+        {
+          "code": "6HLCC8O07NBAF1GEQ68ML",
+          "description": "手感巨稳",
+          "value": 380000
+        },
+        {
+          "code": "QJB201轻机枪-烽火地带-6HPQTRK0BRREHBU4ROLIN",
+          "description": "激光枪",
+          "value": 370000
+        },
+        {
+          "code": "QJB201轻机枪-全面战场-6I1B2JS03OBTS1B3MURBD",
+          "description": "全面战场 开镜快 机动强 稳定",
+          "value": 3605
+        },
+        {
+          "code": "QJB201轻机枪-全面战场-6IR7ED00BG8VNUB8BT83O",
+          "description": "大弹鼓 开镜快 稳定",
+          "value": 1164
+        }
+      ]
+    },
+    {
+      "name": "M1014",
+      "codes": [
+        {
+          "code": "6G9406008OPOB8QKQ72I8",
+          "description": "快速装填 修脚（鹿弹）",
+          "value": 130000
+        },
+        {
+          "code": "6HGM94S00C2R3NB6MRBQ8",
+          "description": "操控开镜版",
+          "value": 160000
+        },
+        {
+          "code": "6HGMAS400C2R3NB6MRBQ8",
+          "description": "开镜腰射双修",
+          "value": 230000
+        },
+        {
+          "code": "M1014霰弹枪-烽火地带-6GQTR10095HC4609S9G3Q",
+          "description": "3倍镜独头弹",
+          "value": 270000
+        },
+        {
+          "code": "M1014霰弹枪-烽火地带-6I3IE7S02UFKD90G9F15O",
+          "description": "独头",
+          "value": 200000
+        }
+      ]
+    },
+    {
+      "name": "S12K",
+      "codes": [
+        {
+          "code": "6GV59IS0AR9U1DEIO2NLB",
+          "description": "96腰射",
+          "value": 120000
+        },
+        {
+          "code": "6GT4NF80FUH1E5MQ63E4O",
+          "description": "100腰射",
+          "value": 180000
+        },
+        {
+          "code": "S12K霰弹枪-烽火地带-6I6H0PC08AUTCO27EF3SU",
+          "description": "100腰射·全自动",
+          "value": 180000
+        },
+        {
+          "code": "S12K霰弹枪-烽火地带-6II8HQC00NO97S2MDBHQV",
+          "description": "100腰射·全自动",
+          "value": 220000
+        }
+      ]
+    },
+    {
+      "name": "725双管霰弹枪",
+      "codes": [
+        {
+          "code": "6GSTI6K0CASCDOHT14M12",
+          "description": "腰射喷",
+          "value": 110000
+        },
+        {
+          "code": "725双管霰弹枪-烽火地带-6IALUS805M97O1SEPETDL",
+          "description": "3倍镜",
+          "value": 120000
+        },
+        {
+          "code": "6H7GD100B728QQG242E3V",
+          "description": "低倍镜",
+          "value": 150000
+        },
+        {
+          "code": "6I2FOU009MTCUUEK83857",
+          "description": "可搭配龙息弹使用",
+          "value": 260000
+        },
+        {
+          "code": "6H2R61K08F8FFPMQA1O83",
+          "description": "3倍镜 用独头弹当狙打",
+          "value": 290000
+        },
+        {
+          "code": "6I9R9IG01FC5JNB4NK15L",
+          "description": "莽侠",
+          "value": 170000
+        }
+      ]
+    },
+    {
+      "name": "MP5",
+      "codes": [
+        {
+          "code": "6H8OK3S0CN2U58NL2UJC9",
+          "description": "100腰射",
+          "value": 90000
+        },
+        {
+          "code": "6HG7AAC024CH4QGG5QQUE",
+          "description": "",
+          "value": 110000
+        },
+        {
+          "code": "MP5冲锋枪-烽火地带-6ICVMB804JL4L6K1JGG7U",
+          "description": "静步快",
+          "value": 120000
+        },
+        {
+          "code": "MP5冲锋枪-全面战场-6HH0NV801NKLLR2165SIK",
+          "description": "纯腰射大弹鼓",
+          "value": 1513
+        }
+      ]
+    },
+    {
+      "name": "P90",
+      "codes": [
+        {
+          "code": "6GQTMSS095HC4609S9G3Q",
+          "description": "低配",
+          "value": 150000
+        },
+        {
+          "code": "6EHRS780C6U07V9G7JRFB",
+          "description": "低配",
+          "value": 170000
+        },
+        {
+          "code": "P90冲锋枪-烽火地带-6ILGS900BBDK4EITCO7U3",
+          "description": "",
+          "value": 260000
+        },
+        {
+          "code": "6J5RTKK0BAC7RIM3B0293",
+          "description": "92腰射",
+          "value": 290000
+        },
+        {
+          "code": "6K837FC049H3TLFDHMKHO",
+          "description": "半改",
+          "value": 300000
+        },
+        {
+          "code": "6G37DPS0DNB82S09FI5F8",
+          "description": "增高架+红外",
+          "value": 310000
+        },
+        {
+          "code": "6K837O4049H3TLFDHMKHO",
+          "description": "",
+          "value": 460000
+        },
+        {
+          "code": "6HFUUG007OL1MAV3EDCT3",
+          "description": "昊天同款·双爆闪",
+          "value": 550000
+        },
+        {
+          "code": "6G83T180B47DBPRUAR75R",
+          "description": "消音红点",
+          "value": 1383
+        }
+      ]
+    },
+    {
+      "name": "Vector",
+      "codes": [
+        {
+          "code": "6H135GK0FIOH9JJL4D8E6",
+          "description": "低配",
+          "value": 200000
+        },
+        {
+          "code": "6GOFEC8032SF8AON69MFA",
+          "description": "84腰射 40发",
+          "value": 340000
+        },
+        {
+          "code": "6H7D1180F6HDCSG3521UV",
+          "description": "长剑 40发",
+          "value": 390000
+        },
+        {
+          "code": "Vector冲锋枪-烽火地带-6J3NCN00FUH1E5MQ63E4O",
+          "description": "88腰射·70发大弹鼓",
+          "value": 370000
+        },
+        {
+          "code": "6IC4NSK0CBLUR0ITR0OK6",
+          "description": "70发",
+          "value": 460000
+        },
+        {
+          "code": "Vector冲锋枪-烽火地带-6J16SEK05VT3P3JELESO0",
+          "description": "满腰射·带爆闪",
+          "value": 500000
+        },
+        {
+          "code": "6IC4NIO0CBLUR0ITR0OK6",
+          "description": "长剑长枪管·40发",
+          "value": 530000
+        },
+        {
+          "code": "Vector冲锋枪-烽火地带-6JEN33C0477RGCFTRLQKP",
+          "description": "满腰射·70发",
+          "value": 550000
+        },
+        {
+          "code": "Vector冲锋枪-烽火地带-6I7HVGC01ACLBIGDH55O8",
+          "description": "性价比",
+          "value": 230000
+        },
+        {
+          "code": "Vector冲锋枪-全面战场-6I94M940DE5HLO6PJ5CMG",
+          "description": "40发",
+          "value": 454
+        },
+        {
+          "code": "Vector冲锋枪-全面战场-6I8DKUS0CRRKK3LTS0OG9",
+          "description": "70发",
+          "value": 1934
+        },
+        {
+          "code": "Vector冲锋枪-烽火地带-6HOTV6G03DQCE4UVNUOKT",
+          "description": "30w稳定性价比",
+          "value": 310000
+        }
+      ]
+    },
+    {
+      "name": "UZI",
+      "codes": [
+        {
+          "code": "UZI冲锋枪-烽火地带-6HGJBO80APGGNCBFQNVEF",
+          "description": "卡战备必备",
+          "value": 70000
+        },
+        {
+          "code": "6GUQ8200BPHJO1VSGS2QU",
+          "description": "低倍镜",
+          "value": 90000
+        },
+        {
+          "code": "UZI冲锋枪-烽火地带-6H5APE40APGGNCBFQNVEF",
+          "description": "",
+          "value": 140000
+        }
+      ]
+    },
+    {
+      "name": "SMG-45",
+      "codes": [
+        {
+          "code": "SMG-45冲锋枪-烽火地带-6HM0APO0FUGA3U57GU9N5",
+          "description": "",
+          "value": 100000
+        },
+        {
+          "code": "SMG-45冲锋枪-烽火地带-6IDK0TS0CJQQKND1U0PPI",
+          "description": "",
+          "value": 110000
+        },
+        {
+          "code": "6HBE1RO079EV449EBAHBQ",
+          "description": "",
+          "value": 230000
+        },
+        {
+          "code": "SMG-45冲锋枪-烽火地带-6JDCCUC03U5CF5VKPUDO1",
+          "description": "满腰射修脚",
+          "value": 260000
+        },
+        {
+          "code": "SMG-45冲锋枪-烽火地带-6JL33N40CNGLFM3INSPTN",
+          "description": "满腰射修脚",
+          "value": 290000
+        },
+        {
+          "code": "6JC70M00DAFJGD1JIVAUJ",
+          "description": "满腰射修脚",
+          "value": 310000
+        },
+        {
+          "code": "6G265TK0B47DBPRUAR75R",
+          "description": "稳定红点 40发",
+          "value": 3600
+        }
+      ]
+    },
+    {
+      "name": "SR-3M",
+      "codes": [
+        {
+          "code": "6HEVCU000K6H9O61OI553",
+          "description": "92腰射",
+          "value": 190000
+        },
+        {
+          "code": "6GS6MS006U3GLSPD6DRKM",
+          "description": "92腰射·红外",
+          "value": 230000
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-烽火地带-6GT85SC0CPDJJA7GOSM58",
+          "description": "100腰射",
+          "value": 260000
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-烽火地带-6K3BLJO054Q67GH2MEM6I",
+          "description": "半改",
+          "value": 350000
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-烽火地带-6IIB71S0BCDGFOIP6PCA1",
+          "description": "移速流",
+          "value": 450000
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-烽火地带-6K11E6C054Q67GH2MEM6I",
+          "description": "",
+          "value": 540000
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-烽火地带-6K3BLIK054Q67GH2MEM6I",
+          "description": "满腰射",
+          "value": 630000
+        },
+        {
+          "code": "6FO1HFC05LRE6O4FIJSJF",
+          "description": "满腰射",
+          "value": 972
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-全面战场-6HMK9O00FIES86M0909DF",
+          "description": "",
+          "value": 2418
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-烽火地带-6IN5GSS0CVQ25EVB75DA5",
+          "description": "100满腰射",
+          "value": 260000
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-烽火地带-6IC3H180AFOOM1IUVSMC2",
+          "description": "开镜",
+          "value": 320000
+        },
+        {
+          "code": "SR-3M紧凑突击步枪-烽火地带-6IH1FN80EPKITGBDS8KHM",
+          "description": "麦晓雯女鬼急速流",
+          "value": 360000
+        }
+      ]
+    },
+    {
+      "name": "勇士冲锋枪",
+      "codes": [
+        {
+          "code": "勇士冲锋枪-烽火地带-6H8N93O0FUH1E5MQ63E4O",
+          "description": "",
+          "value": 110000
+        },
+        {
+          "code": "勇士冲锋枪-烽火地带-6KIHN7K0E6SPBD0A68SQU",
+          "description": "88腰射",
+          "value": 140000
+        },
+        {
+          "code": "6GS6O1K06U3GLSPD6DRKM",
+          "description": "96腰射",
+          "value": 180000
+        },
+        {
+          "code": "勇士冲锋枪-烽火地带-6HICGU8074EP52HKUGIIC",
+          "description": "满腰射",
+          "value": 210000
+        },
+        {
+          "code": "勇士冲锋枪-烽火地带-6H4R62C0FIPEP8HG9QN71",
+          "description": "腰射",
+          "value": 150000
+        }
+      ]
+    },
+    {
+      "name": "MP7",
+      "codes": [
+        {
+          "code": "MP7冲锋枪-烽火地带-6IOTUFC0FKQKCMETQ06U3",
+          "description": "92腰射·60发",
+          "value": 230000
+        },
+        {
+          "code": "6GVQC4C0DKPR1AESPN8DT",
+          "description": "高腰射 均衡",
+          "value": 290000
+        },
+        {
+          "code": "MP7-烽火地带-6I6U22K04PC56TM4QFHON",
+          "description": "月影镀铬枪管·60发",
+          "value": 260000
+        },
+        {
+          "code": "MP7冲锋枪-烽火地带-6JEJ3PC0FT4DOEKA4FGKI",
+          "description": "满腰射·60发",
+          "value": 270000
+        },
+        {
+          "code": "MP7冲锋枪-烽火地带-6JFV9TC0C624I4NGKKDU7",
+          "description": "满腰射40发",
+          "value": 300000
+        },
+        {
+          "code": "6GTHT9K0862TAT8TD0V1C",
+          "description": "无后开镜",
+          "value": 330000
+        },
+        {
+          "code": "6GTHTI00862TAT8TD0V1C",
+          "description": "稳定无后坐红点 40发弹夹",
+          "value": 420000
+        },
+        {
+          "code": "MP7冲锋枪-烽火地带-6K18EMS08LONNFFS1VANV",
+          "description": "满腰射开镜双修",
+          "value": 460000
+        },
+        {
+          "code": "MP7冲锋枪-烽火地带-6I6LL5409GU3RG52RIK0O",
+          "description": "满腰射·MP7月影镀铬枪管",
+          "value": 470000
+        },
+        {
+          "code": "MP7冲锋枪-烽火地带-6K01GK40ALQF2Q0DHMU6C",
+          "description": "80腰射",
+          "value": 500000
+        },
+        {
+          "code": "6G265LC0B47DBPRUAR75R",
+          "description": "腰射大弹鼓",
+          "value": 6684
+        },
+        {
+          "code": "MP7冲锋枪-全面战场-6ISDL5G0DHUP7M5K9L8TQ",
+          "description": "",
+          "value": 743
+        },
+        {
+          "code": "6G1IB940B47DBPRUAR75R",
+          "description": "红点",
+          "value": 1894
+        }
+      ]
+    },
+    {
+      "name": "QCQ171",
+      "codes": [
+        {
+          "code": "6GV4DOS03I0RFPFTOIP1D",
+          "description": "低倍",
+          "value": 200000
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6GQ1B8C0FIAS4OUQQ081T",
+          "description": "",
+          "value": 210000
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6H71DL80FUH1E5MQ63E4O",
+          "description": "性价比",
+          "value": 290000
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6F1OU9K00ES0HEAQBTB8O",
+          "description": "",
+          "value": 300000
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6KFI5JK04NICIDBFUIQ4K",
+          "description": "后坐力85",
+          "value": 350000
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6GQ1D1K0FIAS4OUQQ081T",
+          "description": "75发大弹夹",
+          "value": 430000
+        },
+        {
+          "code": "6HPAT1K00EUCSUQD756VA",
+          "description": "75发大弹夹·侧瞄",
+          "value": 430000
+        },
+        {
+          "code": "6HILJDG0EOFGDIS4U8RJ2",
+          "description": "苏醒同款·3爆闪",
+          "value": 680000
+        },
+        {
+          "code": "6H913S00637JNT80TUGEU",
+          "description": "",
+          "value": 1993
+        },
+        {
+          "code": "6HC37S00ETGA9GU3DPS1S",
+          "description": "",
+          "value": 432
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6I3PGA40EMCQ8JDR1J193",
+          "description": "最最便宜",
+          "value": 140000
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6I2HQRG0FSFP0J1U5DTOA",
+          "description": "便宜又好用！包的兄弟",
+          "value": 210000
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6HGCPH80CPOU5C21U0PK5",
+          "description": "好用到爆",
+          "value": 360000
+        },
+        {
+          "code": "QCQ171冲锋枪-烽火地带-6JBD3EG02PN62G8VRM0LP",
+          "description": "40米内稳的一批",
+          "value": 360000
+        }
+      ]
+    },
+    {
+      "name": "M4A1",
+      "codes": [
+        {
+          "code": "6FPBUPG06TRF107Q8PIO9",
+          "description": "性价比",
+          "value": 240000
+        },
+        {
+          "code": "M4A1突击步枪-烽火地带 -6JR3D5K05BIB57QCO66E8",
+          "description": "急停腰射",
+          "value": 250000
+        },
+        {
+          "code": "6G94AKO0FHI6PKF6C3P0U",
+          "description": "适合机密",
+          "value": 290000
+        },
+        {
+          "code": "6K2ATEO0C4PRBT1BGUG84",
+          "description": "",
+          "value": 320000
+        },
+        {
+          "code": "6H6NSSC01JPSBQR736DTT",
+          "description": "适合绝密",
+          "value": 350000
+        },
+        {
+          "code": "6K1NT740C4PRBT1BGUG84",
+          "description": "30发·爆闪·高操控·开镜移速",
+          "value": 410000
+        },
+        {
+          "code": "6K2C0QG0C4PRBT1BGUG84",
+          "description": "45发·爆闪·高操控·开镜移速",
+          "value": 410000
+        },
+        {
+          "code": "M4A1突击步枪-烽火地带-6HAS15S05KCC2IQITN36C",
+          "description": "半改稳定",
+          "value": 320000
+        },
+        {
+          "code": "M4A1突击步枪-烽火地带-6I662R405OCPCFL108AD5",
+          "description": "CS手感粑粑枪",
+          "value": 180000
+        }
+      ]
+    },
+    {
+      "name": "AKM突击步枪",
+      "codes": [
+        {
+          "code": "6GQA1LS059TG3DMAR42GO",
+          "description": "腰射AK·消音",
+          "value": 240000
+        },
+        {
+          "code": "AKM突击步枪-烽火地带-6JVCFL40FKLSP2R6J3NCE",
+          "description": "急停腰射AK",
+          "value": 250000
+        },
+        {
+          "code": "6GPE8TC0CQ9J5LUV083F9",
+          "description": "半改",
+          "value": 240000
+        },
+        {
+          "code": "6HQ1JV40EFBG7BQMQVSON",
+          "description": "低配颗秒腰射",
+          "value": 240000
+        },
+        {
+          "code": "AKM突击步枪-烽火地带-6GR8B1K041LPA2AOC9L5E",
+          "description": "性价比",
+          "value": 290000
+        }
+      ]
+    },
+    {
+      "name": "QBZ95-1",
+      "codes": [
+        {
+          "code": "6I5OGTG0008N6F1TVLDSK",
+          "description": "",
+          "value": 100000
+        },
+        {
+          "code": "QBZ95-1突击步枪-烽火地带-6J8OIJG040RTT8H9GDLCN",
+          "description": "需要一点儿控枪能力",
+          "value": 160000
+        },
+        {
+          "code": "6I4C9O800IT592244VO95",
+          "description": "",
+          "value": 190000
+        },
+        {
+          "code": "QBZ95-1突击步枪-烽火地带-6J6CQSC09HPQT2KDNI453",
+          "description": "超稳一个点",
+          "value": 230000
+        },
+        {
+          "code": "QBZ95-1突击步枪-烽火地带-6K9NAEG01RINE2HG7DHR2",
+          "description": "2/4倍镜",
+          "value": 290000
+        },
+        {
+          "code": "QBZ95-1突击步枪-烽火地带-6GRA89G0AV5BVPK0VDMCD",
+          "description": "稳定红点",
+          "value": 360000
+        },
+        {
+          "code": "6HSRLD407R6TS3B0SL205",
+          "description": "30发均衡",
+          "value": 151
+        },
+        {
+          "code": "6HSRRO007R6TS3B0SL205",
+          "description": "二倍",
+          "value": 260
+        },
+        {
+          "code": "6HSRRQG07R6TS3B0SL205",
+          "description": "脚架机枪·60发大弹鼓",
+          "value": 287
+        },
+        {
+          "code": "6HSRRS407R6TS3B0SL205",
+          "description": "60发冲锋",
+          "value": 790
+        },
+        {
+          "code": "QBZ95-1突击步枪-全面战场-6I98TG80F1IHB82754MER",
+          "description": "45发红点稳压",
+          "value": 1431
+        },
+        {
+          "code": "QBZ95-1突击步枪-烽火地带-6IJKLFS04H57K6Q0N7Q7V",
+          "description": "60发大弹鼓",
+          "value": 380000
+        }
+      ]
+    },
+    {
+      "name": "ASh-12",
+      "codes": [
+        {
+          "code": "ASh-12战斗步枪-烽火地带-6KGFPO80FKLSP2R6J3NCE",
+          "description": "金枪客提交方案",
+          "value": 250000
+        },
+        {
+          "code": "ASh-12战斗步枪-烽火地带-6FR59P809ESH48R6SC2K8",
+          "description": "",
+          "value": 290000
+        },
+        {
+          "code": "ASh-12战斗步枪-烽火地带-6KGFT040FKLSP2R6J3NCE",
+          "description": "双发套件",
+          "value": 330000
+        },
+        {
+          "code": "6IG8QES0FUH1E5MQ63E4O",
+          "description": "性价比·2/4倍镜",
+          "value": 430000
+        },
+        {
+          "code": "ASh-12战斗步枪-烽火地带-6J22C140FKQKCMETQ06U3",
+          "description": "",
+          "value": 490000
+        },
+        {
+          "code": "6GR5TGO0FLRHHQH04AH86",
+          "description": "2倍镜",
+          "value": 600000
+        },
+        {
+          "code": "6IG6B580FUH1E5MQ63E4O",
+          "description": "战斧枪管满改·2/4倍镜",
+          "value": 620000
+        },
+        {
+          "code": "6GE37N00EA3FRKHMS9J6U",
+          "description": "满改",
+          "value": 620000
+        },
+        {
+          "code": "ASh-12战斗步枪-烽火地带-6GH3908064HLT38PTSGJ8",
+          "description": "满改",
+          "value": 640000
+        },
+        {
+          "code": "6IG6B800FUH1E5MQ63E4O",
+          "description": "长枪管满改",
+          "value": 640000
+        },
+        {
+          "code": "6I5N8FG022N6MIGOBDDTF",
+          "description": "满改",
+          "value": 720000
+        },
+        {
+          "code": "ASh-12战斗步枪-全面战场-6HBBG0S0CBCO6L50M4DKF",
+          "description": "热融合全息",
+          "value": 3415
+        }
+      ]
+    },
+    {
+      "name": "K416",
+      "codes": [
+        {
+          "code": "6GL0ARO0B47DBPRUAR75R",
+          "description": "低配",
+          "value": 180000
+        },
+        {
+          "code": "6H2PVAC08DID6OM54L0UO",
+          "description": "",
+          "value": 260000
+        },
+        {
+          "code": "6H932BS0796T4B5F7IGI0",
+          "description": "",
+          "value": 330000
+        },
+        {
+          "code": "6GUGEEK0AU8RU4FIO5MNK",
+          "description": "满腰射·双爆闪",
+          "value": 360000
+        },
+        {
+          "code": "6IG9N4O07MBP6VQA055GO",
+          "description": "",
+          "value": 380000
+        },
+        {
+          "code": "6HAPC840ARR6AMSPCL0NA",
+          "description": "稳定 红点 消音 45发",
+          "value": 420000
+        },
+        {
+          "code": "K416突击步枪-烽火地带-6K0KNU001B5QPHM7JFV0B",
+          "description": "二倍",
+          "value": 440000
+        },
+        {
+          "code": "K416突击步枪-烽火地带-6FTTLTK07ODLT6ETQT3GS",
+          "description": "满改·45发",
+          "value": 450000
+        },
+        {
+          "code": "K416突击步枪-烽火地带-6H5D12O0EQVN8VE61A0GD",
+          "description": "满改",
+          "value": 430000
+        },
+        {
+          "code": "6G1IAQS0B47DBPRUAR75R",
+          "description": "激光红点",
+          "value": 12561
+        },
+        {
+          "code": "6GC2A3S0B47DBPRUAR75R",
+          "description": "腰射红点",
+          "value": 1805
+        }
+      ]
+    },
+    {
+      "name": "AUG突击步枪",
+      "codes": [
+        {
+          "code": "6HFTMQS0EAR06C6UBJ9VT",
+          "description": "低配",
+          "value": 140000
+        },
+        {
+          "code": "6GPE88S0CQ9J5LUV083F9",
+          "description": "低配",
+          "value": 190000
+        },
+        {
+          "code": "6HFTMTK0EAR06C6UBJ9VT",
+          "description": "集成3倍镜",
+          "value": 210000
+        },
+        {
+          "code": "AUG突击步枪-烽火地带-6JI03E40ALOJG3R4BVKJS",
+          "description": "消音·集成3倍镜·激光",
+          "value": 250000
+        },
+        {
+          "code": "AUG突击步枪-烽火地带-6H4GOAG024N3UV8ISDMEK",
+          "description": "红点三倍切换 可近可远",
+          "value": 250000
+        },
+        {
+          "code": "6H82AQC0702IAA9B580JH",
+          "description": "低倍镜性价比",
+          "value": 260000
+        },
+        {
+          "code": "AUG突击步枪-全面战场-6JV0JJG087KKF9T2HJCH4",
+          "description": "45发",
+          "value": 480000
+        },
+        {
+          "code": "6GM7BQS08QM0P04IG7BJ6",
+          "description": "3/7倍镜·远距离",
+          "value": 1825
+        },
+        {
+          "code": "6H73KI80BPTDMNSA9MCI3",
+          "description": "火控·架点开镜快",
+          "value": 8124
+        },
+        {
+          "code": "AUG突击步枪-全面战场-6HQF18O002RC33FL8664S",
+          "description": "热成像，中距离稳压，有点慢",
+          "value": 1315
+        }
+      ]
+    },
+    {
+      "name": "M7战斗步枪",
+      "codes": [
+        {
+          "code": "M7战斗步枪-烽火地带-6HTPDTG0A6PIA75LU5T70",
+          "description": "",
+          "value": 400000
+        },
+        {
+          "code": "M7战斗步枪-烽火地带-6I32ADK0195JPE5VK38LR",
+          "description": "",
+          "value": 440000
+        },
+        {
+          "code": "M7战斗步枪-烽火地带-6HRED0000736PG35C0J2S",
+          "description": "红点好用性价比",
+          "value": 470000
+        },
+        {
+          "code": "6J7471C0A0LP3CJDNC5DK",
+          "description": "提风枪管·二倍镜",
+          "value": 620000
+        },
+        {
+          "code": "6J7478S0A0LP3CJDNC5DK",
+          "description": "提风枪管·稳定红点",
+          "value": 630000
+        },
+        {
+          "code": "6H540NK07U38RM6J9AFG9",
+          "description": "消音·稳定红点",
+          "value": 680000
+        },
+        {
+          "code": "M7战斗步枪-烽火地带-6JQ43UC0FKLSP2R6J3NCE",
+          "description": "",
+          "value": 740000
+        },
+        {
+          "code": "M7战斗步枪-烽火地带-6JF4T1G05VT3P3JELESO0",
+          "description": "3.5倍镜·XDD同款",
+          "value": 750000
+        },
+        {
+          "code": "6K5BTPS0EVDT6M6LB8UJ1",
+          "description": "骨架枪托",
+          "value": 790000
+        },
+        {
+          "code": "6G2RQ5G0B47DBPRUAR75R",
+          "description": "1.5镜满改",
+          "value": 27036
+        },
+        {
+          "code": "6GPHUNS094898G9NDDGRT",
+          "description": "红点稳定",
+          "value": 6009
+        },
+        {
+          "code": "6H5D3OK0D6RRJ1VFAE8B4",
+          "description": "45发二倍负据枪",
+          "value": 5694
+        },
+        {
+          "code": "M7战斗步枪-全面战场-6HBBH1G0CBCO6L50M4DKF",
+          "description": "红点稳定",
+          "value": 5558
+        },
+        {
+          "code": "M7战斗步枪-全面战场-6HRQUGK0FJHJHHSK5V2EO",
+          "description": "45发稳压",
+          "value": 15755
+        }
+      ]
+    },
+    {
+      "name": "SG552",
+      "codes": [
+        {
+          "code": "6G94APG0FHI6PKF6C3P0U",
+          "description": "低配",
+          "value": 150000
+        },
+        {
+          "code": "6G94AQ80FHI6PKF6C3P0U",
+          "description": "半改",
+          "value": 280000
+        },
+        {
+          "code": "6G94AQS0FHI6PKF6C3P0U",
+          "description": "高配满改",
+          "value": 410000
+        }
+      ]
+    },
+    {
+      "name": "AK-12",
+      "codes": [
+        {
+          "code": "6GE93140C56ME2PP5PQ4N",
+          "description": "低配",
+          "value": 160000
+        },
+        {
+          "code": "6H517JG0CPJECFQRAMCV3",
+          "description": "75发·满腰射",
+          "value": 160000
+        },
+        {
+          "code": "6J8F7D8049H3TLFDHMKHO",
+          "description": "",
+          "value": 170000
+        },
+        {
+          "code": "6H9482404FDE6PGQOMNGT",
+          "description": "中配",
+          "value": 250000
+        },
+        {
+          "code": "AK-12突击步枪-烽火地带-6JJB8TO0BULINHN57BVUU",
+          "description": "二倍镜",
+          "value": 290000
+        },
+        {
+          "code": "AK-12突击步枪-烽火地带-6JJB8BC0BULINHN57BVUU",
+          "description": "红点·45发",
+          "value": 300000
+        },
+        {
+          "code": "6GE93200C56ME2PP5PQ4N",
+          "description": "满改",
+          "value": 400000
+        },
+        {
+          "code": "6GTVLVK08QM0P04IG7BJ6",
+          "description": "75发大弹夹",
+          "value": 6173
+        },
+        {
+          "code": "6GL0E8C04RAATERAEOIJ1",
+          "description": "45发弹夹",
+          "value": 1594
+        }
+      ]
+    },
+    {
+      "name": "SCAR-H",
+      "codes": [
+        {
+          "code": "SCAR-H战斗步枪-烽火地带-6HM7QGC0AR9U1DEIO2NLB",
+          "description": "低配·20发",
+          "value": 170000
+        },
+        {
+          "code": "6H4BJA805FIKAJMIIBQ6A",
+          "description": "1.5/5 可调倍镜·20发",
+          "value": 210000
+        },
+        {
+          "code": "6KHGNC800RR685AT8GCNP",
+          "description": "20发无后高操控",
+          "value": 240000
+        },
+        {
+          "code": "6HITGQK01RBVGS0BGKPDN",
+          "description": "30发",
+          "value": 280000
+        },
+        {
+          "code": "SCAR-H战斗步枪-烽火地带-6HQ6VCC0A6PIA75LU5T70",
+          "description": "",
+          "value": 300000
+        },
+        {
+          "code": "SCAR-H战斗步枪-烽火地带-6IIR6E00A6PIA75LU5T70",
+          "description": "",
+          "value": 360000
+        },
+        {
+          "code": "SCAR-H战斗步枪-烽火地带-6HN5LPS059JEUI2VCBK2T",
+          "description": "满改2倍中近距离",
+          "value": 470000
+        },
+        {
+          "code": "SCAR-H战斗步枪-烽火地带-6FNPB7G07FGCB0BL90FLR",
+          "description": "满改 3/7倍镜",
+          "value": 520000
+        },
+        {
+          "code": "SCAR-H战斗步枪-烽火地带-6EP2A5002H0HSC9HF2E4R",
+          "description": "满改",
+          "value": 550000
+        },
+        {
+          "code": "6G1IA800B47DBPRUAR75R",
+          "description": "3/7倍镜 50发弹鼓",
+          "value": 4793
+        },
+        {
+          "code": "SCAR-H战斗步枪-全面战场-6I1H3D409RP2JHJNKUQRC",
+          "description": "30发",
+          "value": 845
+        }
+      ]
+    },
+    {
+      "name": "G3",
+      "codes": [
+        {
+          "code": "6H09U3K0C4V15L1N4PQQG",
+          "description": "低配",
+          "value": 190000
+        },
+        {
+          "code": "6GVQBPS0DKPR1AESPN8DT",
+          "description": "低配",
+          "value": 230000
+        },
+        {
+          "code": "6G9O5S00FUH1E5MQ63E4O",
+          "description": "50发弹夹",
+          "value": 230000
+        },
+        {
+          "code": "6GVQBQO0DKPR1AESPN8DT",
+          "description": "半改 稳定红点",
+          "value": 340000
+        },
+        {
+          "code": "6GS7P7O0DP3VS1UERAHQE",
+          "description": "高配·三倍镜",
+          "value": 370000
+        },
+        {
+          "code": "G3战斗步枪-烽火地带-6IH6QMS0ENS9LQ6EB2ET2",
+          "description": "枪托可换G3伸缩·好压",
+          "value": 90000
+        },
+        {
+          "code": "G3战斗步枪-烽火地带-6I9QC9801FC5JNB4NK15L",
+          "description": "丐版 消音",
+          "value": 100000
+        },
+        {
+          "code": "G3战斗步枪-烽火地带-6IBD8JC09H67CC25AJ4TP",
+          "description": "不要枪口一样稳",
+          "value": 170000
+        },
+        {
+          "code": "G3战斗步枪-烽火地带-6I8KQKG004HHFVOMGCNEB",
+          "description": "150米稳压",
+          "value": 220000
+        },
+        {
+          "code": "6J0FBAS08GF96KBIE0U3A",
+          "description": "小胡的G3",
+          "value": 350000
+        }
+      ]
+    },
+    {
+      "name": "AS Val",
+      "codes": [
+        {
+          "code": "6HBDCFS01JPSBQR736DTT",
+          "description": "89腰射",
+          "value": 370000
+        },
+        {
+          "code": "6GL0C5O094898G9NDDGRT",
+          "description": "半改",
+          "value": 390000
+        },
+        {
+          "code": "6HUQJJC0DEC5PLI24CCQR",
+          "description": "刺客高级枪管·四连发",
+          "value": 450000
+        },
+        {
+          "code": "6HUI36805LELD7LJQAIP3",
+          "description": "刺客高级枪管·四连发",
+          "value": 760000
+        },
+        {
+          "code": "6JA45VK04LB33KGUMEVKJ",
+          "description": "2/4倍镜·73后坐力控制",
+          "value": 830000
+        },
+        {
+          "code": "6HAD0AG0BG79N0F2SD6QF",
+          "description": "红点满改",
+          "value": 820000
+        },
+        {
+          "code": "6HI0U0S02RHQD29OCIB8S",
+          "description": "3爆闪60操速",
+          "value": 950000
+        },
+        {
+          "code": "6IDQ1K006G3MJVVMQ1R0D",
+          "description": "63操速爆发高",
+          "value": 950000
+        },
+        {
+          "code": "6GC2BI40B47DBPRUAR75R",
+          "description": "腰射红点 3爆闪",
+          "value": 2642
+        },
+        {
+          "code": "6GC23GS0B47DBPRUAR75R",
+          "description": "满改红点",
+          "value": 18541
+        },
+        {
+          "code": "6GL0FPK04RAATERAEOIJ1",
+          "description": "1.5/5 可调倍镜",
+          "value": 2893
+        },
+        {
+          "code": "6HKIG8402RHQD29OCIB8S",
+          "description": "64后座66操速单爆闪",
+          "value": 790000
+        },
+        {
+          "code": "6HLVEM407GCCSCEMRQ3R2",
+          "description": "半改（只有一半，图一乐）",
+          "value": 440000
+        },
+        {
+          "code": "AS Val突击步枪-烽火地带-6ID48CG03A9401HTOOKAE",
+          "description": "秒开镜",
+          "value": 590000
+        },
+        {
+          "code": "AS Val突击步枪-烽火地带-6J1OP0G0EADCKVA9964DJ",
+          "description": "三爆闪红点稳压",
+          "value": 1000000
+        }
+      ]
+    },
+    {
+      "name": "腾龙突击步枪",
+      "codes": [
+        {
+          "code": "6HNRV8C03DMVAHLDOCSS8",
+          "description": "",
+          "value": 180000
+        },
+        {
+          "code": "腾龙突击步枪-烽火地带-6H5C4SC0FUH1E5MQ63E4O",
+          "description": "",
+          "value": 200000
+        },
+        {
+          "code": "腾龙突击步枪-烽火地带-6HIS37G0BCHV462S8UUDS",
+          "description": "",
+          "value": 200000
+        },
+        {
+          "code": "腾龙突击步枪-烽火地带-6K929L807TTAAQ10R7K80",
+          "description": "2/4 倍镜",
+          "value": 490000
+        },
+        {
+          "code": "腾龙突击步枪-烽火地带-6G1JN400AV5BVPK0VDMCD",
+          "description": "高配",
+          "value": 490000
+        },
+        {
+          "code": "6K1HVGK049H3TLFDHMKHO",
+          "description": "30发·满改",
+          "value": 520000
+        },
+        {
+          "code": "6K1HVO4049H3TLFDHMKHO",
+          "description": "30发·满改",
+          "value": 520000
+        },
+        {
+          "code": "腾龙突击步枪-烽火地带-6GVGL640BUSDVQP3857JE",
+          "description": "45发·满改",
+          "value": 530000
+        },
+        {
+          "code": "6K1I0DG049H3TLFDHMKHO",
+          "description": "45发·满改",
+          "value": 550000
+        },
+        {
+          "code": "6GC28TS0B47DBPRUAR75R",
+          "description": "腰射红点",
+          "value": 1504
+        },
+        {
+          "code": "6GVQK1O0DKPR1AESPN8DT",
+          "description": "60发大弹鼓",
+          "value": 13017
+        },
+        {
+          "code": "6H5D27C0D6RRJ1VFAE8B4",
+          "description": "45发一倍",
+          "value": 2236
+        }
+      ]
+    },
+    {
+      "name": "K437",
+      "codes": [
+        {
+          "code": "6HEOI8O079EV449EBAHBQ",
+          "description": "低配·全绿配件",
+          "value": 150000
+        },
+        {
+          "code": "6G7OO5K0EN3QBHGNOE3K6",
+          "description": "低倍 激光",
+          "value": 230000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6IPPEEK030UHDT32NAGBF",
+          "description": "性价比移速流",
+          "value": 280000
+        },
+        {
+          "code": "6H7FRR4024CH4QGG5QQUE",
+          "description": "消音·低操控·62后坐",
+          "value": 260000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6JQ3PG00FKLSP2R6J3NCE",
+          "description": "红点 高性价比·很稳",
+          "value": 270000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6JMFNEC0BIGQQKR21AT1J",
+          "description": "",
+          "value": 290000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6IIB9Q403MDF84DA42RH4",
+          "description": "性价比改装",
+          "value": 310000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6JMFNG80BIGQQKR21AT1J",
+          "description": "",
+          "value": 330000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6K3G24O01RINE2HG7DHR2",
+          "description": "二倍",
+          "value": 390000
+        },
+        {
+          "code": "6GC8GPK03BMVKRT548UV5",
+          "description": "高配·45发",
+          "value": 380000
+        },
+        {
+          "code": "6HDCNF002PV0ALV15I55G",
+          "description": "满改红点·30发",
+          "value": 450000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6H5DI4405RLQ9R0EBIRB2",
+          "description": "满改",
+          "value": 490000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6K435QK0EVDT6M6LB8UJ1",
+          "description": "1.5/5可调倍镜·昊天同款",
+          "value": 510000
+        },
+        {
+          "code": "K437突击步枪-烽火地带-6K4363O0EVDT6M6LB8UJ1",
+          "description": "昊天同款",
+          "value": 530000
+        },
+        {
+          "code": "6G2RG3O0B47DBPRUAR75R",
+          "description": "稳定火控",
+          "value": 5618
         }
       ]
     }

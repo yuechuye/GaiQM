@@ -28,7 +28,8 @@
           "description": "天霸Mad98同款",
           "value": 600000
         }
-      ]
+      ],
+      "category": "精确射手步枪"
     },
     {
       "name": "RM277突击步枪",
@@ -68,7 +69,8 @@
           "description": "金枪客战斗方案",
           "value": 500000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "M82狙击步枪",
@@ -83,7 +85,8 @@
           "description": "",
           "value": 1637
         }
-      ]
+      ],
+      "category": "狙击步枪"
     },
     {
       "name": "AR57突击步枪",
@@ -133,7 +136,8 @@
           "description": "大战场满改",
           "value": 2331
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "VSS射手步枪",
@@ -153,7 +157,8 @@
           "description": "",
           "value": 390000
         }
-      ]
+      ],
+      "category": "精确射手步枪"
     },
     {
       "name": "FS-12霰弹枪",
@@ -193,7 +198,8 @@
           "description": "95腰射·20发",
           "value": 420000
         }
-      ]
+      ],
+      "category": "霰弹枪"
     },
     {
       "name": "MCX LT突击步枪",
@@ -243,7 +249,8 @@
           "description": "【兲】高改|无镭射快速开镜|隔热网|焰魂枪管|30发",
           "value": 210000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "M870霰弹枪",
@@ -258,7 +265,8 @@
           "description": "3倍镜",
           "value": 50000
         }
-      ]
+      ],
+      "category": "霰弹枪"
     },
     {
       "name": "MK4冲锋枪",
@@ -293,7 +301,8 @@
           "description": "开镜腰射双修·三连发枪管",
           "value": 440000
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "Mini-14射手步枪",
@@ -318,7 +327,8 @@
           "description": "火控",
           "value": 310000
         }
-      ]
+      ],
+      "category": "精确射手步枪"
     },
     {
       "name": "SKS射手步枪",
@@ -358,7 +368,8 @@
           "description": "3.5倍无枪管 稳压版 性价比推荐",
           "value": 330000
         }
-      ]
+      ],
+      "category": "精确射手步枪"
     },
     {
       "name": "Marlin杠杆步枪",
@@ -398,7 +409,8 @@
           "description": "99腰射不怕近战，自带便宜八倍镜开镜抽人",
           "value": 170000
         }
-      ]
+      ],
+      "category": "特殊武器"
     },
     {
       "name": "AKS-74U",
@@ -418,7 +430,8 @@
           "description": "",
           "value": 270000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "CAR-15",
@@ -448,7 +461,8 @@
           "description": "大战场",
           "value": 11
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "QSZ92G",
@@ -458,7 +472,8 @@
           "description": "跑刀必用",
           "value": 80000
         }
-      ]
+      ],
+      "category": "手枪"
     },
     {
       "name": "沙漠之鹰",
@@ -478,7 +493,8 @@
           "description": "二倍",
           "value": 180000
         }
-      ]
+      ],
+      "category": "手枪"
     },
     {
       "name": "G17",
@@ -488,7 +504,8 @@
           "description": "",
           "value": 170000
         }
-      ]
+      ],
+      "category": "手枪"
     },
     {
       "name": "M1911",
@@ -498,7 +515,8 @@
           "description": "跑刀必备",
           "value": 120000
         }
-      ]
+      ],
+      "category": "手枪"
     },
     {
       "name": "MK47突击步枪",
@@ -528,7 +546,8 @@
           "description": "酸魔同款",
           "value": 790000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "M16A4突击步枪",
@@ -568,7 +587,8 @@
           "description": "火控激光高操作低后座自改",
           "value": 440000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "野牛冲锋枪",
@@ -593,7 +613,8 @@
           "description": "62高操控",
           "value": 811
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "SVD",
@@ -638,7 +659,8 @@
           "description": "3倍镜+侧瞄",
           "value": 250
         }
-      ]
+      ],
+      "category": "精确射手步枪"
     },
     {
       "name": "PSG-1",
@@ -673,7 +695,8 @@
           "description": "高配满后座",
           "value": 500000
         }
-      ]
+      ],
+      "category": "精确射手步枪"
     },
     {
       "name": "PTR-32",
@@ -718,7 +741,8 @@
           "description": "高配红点",
           "value": 340000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "KC17",
@@ -798,7 +822,8 @@
           "description": "谁用谁懂",
           "value": 410000
         }
-      ]
+      ],
+      "category": "手枪"
     },
     {
       "name": "复合弓",
@@ -828,7 +853,8 @@
           "description": "腰射流",
           "value": 1133
         }
-      ]
+      ],
+      "category": "特殊武器"
     },
     {
       "name": "93R",
@@ -853,7 +879,8 @@
           "description": "下挂激光",
           "value": 90000
         }
-      ]
+      ],
+      "category": "手枪"
     },
     {
       "name": ".357左轮",
@@ -868,7 +895,8 @@
           "description": "可以当狙玩 3/7弹道狙击镜",
           "value": 240000
         }
-      ]
+      ],
+      "category": "手枪"
     },
     {
       "name": "G18",
@@ -883,7 +911,8 @@
           "description": "红狼专用",
           "value": 156512
         }
-      ]
+      ],
+      "category": "手枪"
     },
     {
       "name": "AWM",
@@ -903,7 +932,8 @@
           "description": "6/12 弹道计算",
           "value": 9461
         }
-      ]
+      ],
+      "category": "狙击步枪"
     },
     {
       "name": "R93",
@@ -943,7 +973,8 @@
           "description": "小胡的R9",
           "value": 270000
         }
-      ]
+      ],
+      "category": "狙击步枪"
     },
     {
       "name": "SV-98",
@@ -958,7 +989,8 @@
           "description": "3/7倍镜",
           "value": 220000
         }
-      ]
+      ],
+      "category": "狙击步枪"
     },
     {
       "name": "M700",
@@ -978,7 +1010,8 @@
           "description": "3/7倍镜满改秒开镜",
           "value": 370000
         }
-      ]
+      ],
+      "category": "狙击步枪"
     },
     {
       "name": "SR-25",
@@ -1013,7 +1046,8 @@
           "description": "黎明握把，开镜速度足够用，后坐力也足够",
           "value": 610000
         }
-      ]
+      ],
+      "category": "精确射手步枪"
     },
     {
       "name": "M14射手步枪",
@@ -1078,7 +1112,8 @@
           "description": "稳定红点 50发",
           "value": 14472
         }
-      ]
+      ],
+      "category": "精确射手步枪"
     },
     {
       "name": "PKM",
@@ -1133,7 +1168,8 @@
           "description": "老飞宇同款腰射PKM",
           "value": 410000
         }
-      ]
+      ],
+      "category": "轻机枪"
     },
     {
       "name": "M249",
@@ -1193,7 +1229,8 @@
           "description": "[兲]45发满射程|稳压一个点|绝密入门级|省钱侧瞄",
           "value": 300000
         }
-      ]
+      ],
+      "category": "轻机枪"
     },
     {
       "name": "M250",
@@ -1238,7 +1275,8 @@
           "description": "红点爆闪",
           "value": 2178
         }
-      ]
+      ],
+      "category": "轻机枪"
     },
     {
       "name": "QJB201",
@@ -1283,7 +1321,8 @@
           "description": "大弹鼓 开镜快 稳定",
           "value": 1164
         }
-      ]
+      ],
+      "category": "轻机枪"
     },
     {
       "name": "M1014",
@@ -1313,7 +1352,8 @@
           "description": "独头",
           "value": 200000
         }
-      ]
+      ],
+      "category": "霰弹枪"
     },
     {
       "name": "S12K",
@@ -1338,7 +1378,8 @@
           "description": "100腰射·全自动",
           "value": 220000
         }
-      ]
+      ],
+      "category": "霰弹枪"
     },
     {
       "name": "725双管霰弹枪",
@@ -1373,7 +1414,8 @@
           "description": "莽侠",
           "value": 170000
         }
-      ]
+      ],
+      "category": "霰弹枪"
     },
     {
       "name": "MP5",
@@ -1398,7 +1440,8 @@
           "description": "纯腰射大弹鼓",
           "value": 1513
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "P90",
@@ -1448,7 +1491,8 @@
           "description": "消音红点",
           "value": 1383
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "Vector",
@@ -1513,7 +1557,8 @@
           "description": "30w稳定性价比",
           "value": 310000
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "UZI",
@@ -1533,7 +1578,8 @@
           "description": "",
           "value": 140000
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "SMG-45",
@@ -1573,7 +1619,8 @@
           "description": "稳定红点 40发",
           "value": 3600
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "SR-3M",
@@ -1638,7 +1685,8 @@
           "description": "麦晓雯女鬼急速流",
           "value": 360000
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "勇士冲锋枪",
@@ -1668,7 +1716,8 @@
           "description": "腰射",
           "value": 150000
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "MP7",
@@ -1738,7 +1787,8 @@
           "description": "红点",
           "value": 1894
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "QCQ171",
@@ -1813,7 +1863,8 @@
           "description": "40米内稳的一批",
           "value": 360000
         }
-      ]
+      ],
+      "category": "冲锋枪"
     },
     {
       "name": "M4A1",
@@ -1863,7 +1914,8 @@
           "description": "CS手感粑粑枪",
           "value": 180000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "AKM突击步枪",
@@ -1893,7 +1945,8 @@
           "description": "性价比",
           "value": 290000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "QBZ95-1",
@@ -1958,7 +2011,8 @@
           "description": "60发大弹鼓",
           "value": 380000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "ASh-12",
@@ -2023,7 +2077,8 @@
           "description": "热融合全息",
           "value": 3415
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "K416",
@@ -2083,7 +2138,8 @@
           "description": "腰射红点",
           "value": 1805
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "AUG突击步枪",
@@ -2138,7 +2194,8 @@
           "description": "热成像，中距离稳压，有点慢",
           "value": 1315
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "M7战斗步枪",
@@ -2213,7 +2270,8 @@
           "description": "45发稳压",
           "value": 15755
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "SG552",
@@ -2233,7 +2291,8 @@
           "description": "高配满改",
           "value": 410000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "AK-12",
@@ -2283,7 +2342,8 @@
           "description": "45发弹夹",
           "value": 1594
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "SCAR-H",
@@ -2343,7 +2403,8 @@
           "description": "30发",
           "value": 845
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "G3",
@@ -2398,7 +2459,8 @@
           "description": "小胡的G3",
           "value": 350000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "AS Val",
@@ -2478,7 +2540,8 @@
           "description": "三爆闪红点稳压",
           "value": 1000000
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "腾龙突击步枪",
@@ -2543,7 +2606,8 @@
           "description": "45发一倍",
           "value": 2236
         }
-      ]
+      ],
+      "category": "突击步枪"
     },
     {
       "name": "K437",
@@ -2623,7 +2687,8 @@
           "description": "稳定火控",
           "value": 5618
         }
-      ]
+      ],
+      "category": "突击步枪"
     }
   ]
 }

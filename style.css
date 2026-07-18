@@ -78,27 +78,43 @@ body {
   padding: 20px;
 }
 
+/* ===== 分类标签栏 ===== */
+.category-bar {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.category-tab {
+  padding: 6px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  background: var(--color-surface);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+  color: var(--color-text-secondary);
+}
+
+.category-tab:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.category-tab.active {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
 /* ===== 筛选栏 ===== */
 .filter-bar {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
   flex-wrap: wrap;
-}
-
-.search-input {
-  flex: 1;
-  min-width: 180px;
-  padding: 10px 14px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  font-size: 0.95rem;
-  outline: none;
-  transition: border-color 0.2s;
-}
-
-.search-input:focus {
-  border-color: var(--color-primary);
 }
 
 .gun-filter {
@@ -137,6 +153,20 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+/* ===== 分类区块 ===== */
+.category-section {
+  margin-bottom: 8px;
+}
+
+.category-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text);
+  padding: 8px 0 12px 0;
+  border-bottom: 2px solid var(--color-primary);
+  margin-bottom: 12px;
 }
 
 /* ===== 枪械分组 ===== */
@@ -296,9 +326,13 @@ body {
     gap: 8px;
   }
 
-  .search-input {
-    min-width: 100%;
-    flex-basis: 100%;
+  .category-bar {
+    gap: 4px;
+  }
+
+  .category-tab {
+    padding: 5px 10px;
+    font-size: 0.8rem;
   }
 
   .gun-filter {

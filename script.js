@@ -1,9 +1,9 @@
 // ===== 全局状态 =====
 let allGuns = [];
 let currentSort = 'desc'; // 'desc' | 'asc'
+let currentCategory = ''; // '' = 全部
 
 // ===== DOM 引用 =====
-const searchInput = document.getElementById('searchInput');
 const gunFilter = document.getElementById('gunFilter');
 const sortBtn = document.getElementById('sortBtn');
 const codeList = document.getElementById('codeList');
@@ -27,8 +27,9 @@ async function loadData() {
 
 // ===== 初始化枪械筛选下拉 =====
 function initGunFilter() {
+  const filtered = getCategoryFiltered();
   gunFilter.innerHTML = '<option value="">全部枪械</option>';
-  allGuns.forEach(gun => {
+  filtered.forEach(gun => {
     const option = document.createElement('option');
     option.value = gun.name;
     option.textContent = `${gun.name} (${gun.codes.length})`;
@@ -36,26 +37,20 @@ function initGunFilter() {
   });
 }
 
+// ===== 分类筛选 =====
+function getCategoryFiltered() {
+  if (!currentCategory) return allGuns;
+  return allGuns.filter(gun => gun.category === currentCategory);
+}
+
 // ===== 获取筛选排序后的数据 =====
 function getFilteredGuns() {
-  const searchTerm = searchInput.value.toLowerCase().trim();
   const gunFilterValue = gunFilter.value;
+  let filtered = getCategoryFiltered();
 
-  // 筛选
-  let filtered = allGuns;
+  // 按枪械名称筛选
   if (gunFilterValue) {
     filtered = filtered.filter(gun => gun.name === gunFilterValue);
-  }
-
-  // 搜索
-  if (searchTerm) {
-    filtered = filtered.map(gun => ({
-      ...gun,
-      codes: gun.codes.filter(c =>
-        c.code.toLowerCase().includes(searchTerm) ||
-        c.description.toLowerCase().includes(searchTerm)
-      )
-    })).filter(gun => gun.codes.length > 0);
   }
 
   // 排序（按价值）
@@ -69,11 +64,42 @@ function getFilteredGuns() {
   return filtered;
 }
 
-// ===== 渲染 =====
-function render() {
+// ===== 排序后的分类数据（用于展示分类标题） =====
+function getFilteredByCategory() {
   const filtered = getFilteredGuns();
 
-  if (filtered.length === 0) {
+  // 按 category 分组
+  const categoryOrder = ['突击步枪', '冲锋枪', '狙击步枪', '精确射手步枪', '轻机枪', '霰弹枪', '手枪', '特殊武器'];
+  const grouped = {};
+
+  filtered.forEach(gun => {
+    const cat = gun.category || '其他';
+    if (!grouped[cat]) grouped[cat] = [];
+    grouped[cat].push(gun);
+  });
+
+  // 按顺序返回
+  const result = [];
+  categoryOrder.forEach(cat => {
+    if (grouped[cat] && grouped[cat].length > 0) {
+      result.push({ category: cat, guns: grouped[cat] });
+    }
+  });
+  // 处理不在预设顺序里的分类
+  Object.keys(grouped).forEach(cat => {
+    if (!categoryOrder.includes(cat)) {
+      result.push({ category: cat, guns: grouped[cat] });
+    }
+  });
+
+  return result;
+}
+
+// ===== 渲染 =====
+function render() {
+  const grouped = getFilteredByCategory();
+
+  if (grouped.length === 0) {
     codeList.innerHTML = '';
     emptyState.style.display = 'block';
     return;
@@ -81,26 +107,31 @@ function render() {
 
   emptyState.style.display = 'none';
 
-  codeList.innerHTML = filtered.map(gun => `
-    <div class="gun-group">
-      <div class="gun-group-header">
-        <span class="gun-group-name">${escapeHTML(gun.name)}</span>
-        <span class="gun-group-count">${gun.codes.length} 个码</span>
-      </div>
-      <div class="code-cards">
-        ${gun.codes.map(code => `
-          <div class="code-card">
-            <div class="code-info">
-              <div class="code-text">${escapeHTML(code.code)}</div>
-              <div class="code-desc">${escapeHTML(code.description)}</div>
-              <div class="code-value">¥${code.value.toLocaleString()}</div>
-            </div>
-            <button class="copy-btn" data-code="${escapeHTML(code.code)}">
-              📋 复制
-            </button>
+  codeList.innerHTML = grouped.map(group => `
+    <div class="category-section">
+      <h2 class="category-title">${escapeHTML(group.category)}</h2>
+      ${group.guns.map(gun => `
+        <div class="gun-group">
+          <div class="gun-group-header">
+            <span class="gun-group-name">${escapeHTML(gun.name)}</span>
+            <span class="gun-group-count">${gun.codes.length} 个码</span>
           </div>
-        `).join('')}
-      </div>
+          <div class="code-cards">
+            ${gun.codes.map(code => `
+              <div class="code-card">
+                <div class="code-info">
+                  <div class="code-text">${escapeHTML(code.code)}</div>
+                  <div class="code-desc">${escapeHTML(code.description)}</div>
+                  <div class="code-value">¥${code.value.toLocaleString()}</div>
+                </div>
+                <button class="copy-btn" data-code="${escapeHTML(code.code)}">
+                  📋 复制
+                </button>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `).join('')}
     </div>
   `).join('');
 
@@ -163,7 +194,18 @@ function showToast() {
 }
 
 // ===== 事件绑定 =====
-searchInput.addEventListener('input', render);
+// 分类标签切换
+document.querySelectorAll('.category-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentCategory = tab.getAttribute('data-category');
+    gunFilter.value = '';
+    initGunFilter();
+    render();
+  });
+});
+
 gunFilter.addEventListener('change', render);
 
 sortBtn.addEventListener('click', () => {

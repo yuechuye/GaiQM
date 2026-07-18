@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三角洲改枪码</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="title">🔫 三角洲改枪码</h1>
+      <a class="github-link" href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="filter-bar">
+      <input
+        type="text"
+        id="searchInput"
+        class="search-input"
+        placeholder="搜索码、描述或枪械名称..."
+        autocomplete="off"
+      >
+      <select id="gunFilter" class="gun-filter">
+        <option value="">全部枪械</option>
+      </select>
+      <button id="sortBtn" class="sort-btn" data-sort="desc">
+        价值 ↓
+      </button>
+    </section>
+
+    <section id="codeList" class="code-list">
+      <!-- JS 动态渲染 -->
+    </section>
+
+    <div id="emptyState" class="empty-state" style="display: none;">
+      <p>没有匹配的改枪码</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>改枪码数据通过 <a href="https://github.com" target="_blank" rel="noopener">GitHub</a> 维护</p>
+  </footer>
+
+  <div id="toast" class="toast">已复制到剪贴板</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

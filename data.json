@@ -1,0 +1,49 @@
+{
+  "guns": [
+    {
+      "name": "M4A1",
+      "codes": [
+        {
+          "code": "M4A1-CT-001",
+          "description": "高精度远程配置，适合中远距离点射",
+          "value": 15000
+        },
+        {
+          "code": "M4A1-CQB-002",
+          "description": "近战快速反应配置，提升射速和腰射精度",
+          "value": 12000
+        },
+        {
+          "code": "M4A1-ALL-003",
+          "description": "全能均衡配置，兼顾精度与机动性",
+          "value": 18000
+        }
+      ]
+    },
+    {
+      "name": "AK-47",
+      "codes": [
+        {
+          "code": "AK47-PWR-001",
+          "description": "暴力输出配置，最大化单发伤害",
+          "value": 20000
+        },
+        {
+          "code": "AK47-CTRL-002",
+          "description": "压枪优化配置，降低后坐力提升可控性",
+          "value": 16000
+        }
+      ]
+    },
+    {
+      "name": "AWM",
+      "codes": [
+        {
+          "code": "AWM-SN-001",
+          "description": "极限射程配置，一枪一个",
+          "value": 35000
+        }
+      ]
+    }
+  ]
+}

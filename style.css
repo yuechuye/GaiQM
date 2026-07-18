@@ -1,0 +1,317 @@
+/* ===== CSS 变量 ===== */
+:root {
+  --color-bg: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-border: #e0e0e0;
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-success: #16a34a;
+  --color-accent: #f59e0b;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --max-width: 800px;
+}
+
+/* ===== 基础重置 ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ===== 顶栏 ===== */
+.header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.github-link {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  padding: 4px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  transition: all 0.2s;
+}
+
+.github-link:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+/* ===== 主体 ===== */
+.main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ===== 筛选栏 ===== */
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.search-input:focus {
+  border-color: var(--color-primary);
+}
+
+.gun-filter {
+  padding: 10px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  background: var(--color-surface);
+  outline: none;
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.gun-filter:focus {
+  border-color: var(--color-primary);
+}
+
+.sort-btn {
+  padding: 10px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  background: var(--color-surface);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.sort-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* ===== 码列表 ===== */
+.code-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ===== 枪械分组 ===== */
+.gun-group {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.gun-group-header {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gun-group-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.gun-group-count {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  background: var(--color-bg);
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+
+/* ===== 码卡片 ===== */
+.code-cards {
+  padding: 10px 12px;
+}
+
+.code-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--color-bg);
+  gap: 12px;
+}
+
+.code-card:last-child {
+  border-bottom: none;
+}
+
+.code-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.code-text {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", Menlo, Consolas, monospace;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 4px;
+  word-break: break-all;
+}
+
+.code-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 2px;
+}
+
+.code-value {
+  font-size: 0.85rem;
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.copy-btn {
+  flex-shrink: 0;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.copy-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.copy-btn.copied {
+  background: var(--color-success);
+  color: #fff;
+  border-color: var(--color-success);
+}
+
+/* ===== 空状态 ===== */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+}
+
+/* ===== Toast ===== */
+.toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: #333;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  z-index: 100;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* ===== 页脚 ===== */
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--color-text-secondary);
+  font-size: 0.8rem;
+}
+
+.footer a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 600px) {
+  .header-inner {
+    padding: 12px 16px;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .main {
+    padding: 12px;
+  }
+
+  .filter-bar {
+    gap: 8px;
+  }
+
+  .search-input {
+    min-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .gun-filter {
+    flex: 1;
+  }
+
+  .code-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .copy-btn {
+    align-self: flex-end;
+  }
+}

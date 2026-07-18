@@ -4,7 +4,6 @@ let currentSort = 'desc'; // 'desc' | 'asc'
 let currentCategory = ''; // '' = 全部
 
 // ===== DOM 引用 =====
-const gunFilter = document.getElementById('gunFilter');
 const sortBtn = document.getElementById('sortBtn');
 const codeList = document.getElementById('codeList');
 const emptyState = document.getElementById('emptyState');
@@ -17,24 +16,11 @@ async function loadData() {
     if (!response.ok) throw new Error('Failed to load data');
     const data = await response.json();
     allGuns = data.guns;
-    initGunFilter();
     render();
   } catch (err) {
     codeList.innerHTML = '<p style="text-align:center;padding:40px;color:#ef4444;">数据加载失败，请检查 data.json 文件</p>';
     console.error('Data load error:', err);
   }
-}
-
-// ===== 初始化枪械筛选下拉 =====
-function initGunFilter() {
-  const filtered = getCategoryFiltered();
-  gunFilter.innerHTML = '<option value="">全部枪械</option>';
-  filtered.forEach(gun => {
-    const option = document.createElement('option');
-    option.value = gun.name;
-    option.textContent = `${gun.name} (${gun.codes.length})`;
-    gunFilter.appendChild(option);
-  });
 }
 
 // ===== 分类筛选 =====
@@ -45,13 +31,7 @@ function getCategoryFiltered() {
 
 // ===== 获取筛选排序后的数据 =====
 function getFilteredGuns() {
-  const gunFilterValue = gunFilter.value;
   let filtered = getCategoryFiltered();
-
-  // 按枪械名称筛选
-  if (gunFilterValue) {
-    filtered = filtered.filter(gun => gun.name === gunFilterValue);
-  }
 
   // 排序（按价值）
   filtered = filtered.map(gun => ({
@@ -200,13 +180,9 @@ document.querySelectorAll('.category-tab').forEach(tab => {
     document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     currentCategory = tab.getAttribute('data-category');
-    gunFilter.value = '';
-    initGunFilter();
     render();
   });
 });
-
-gunFilter.addEventListener('change', render);
 
 sortBtn.addEventListener('click', () => {
   currentSort = currentSort === 'desc' ? 'asc' : 'desc';

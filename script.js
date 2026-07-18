@@ -44,11 +44,9 @@ function getFilteredGuns() {
   return filtered;
 }
 
-// ===== 排序后的分类数据（用于展示分类标题） =====
+// ===== 排序后的分类数据 =====
 function getFilteredByCategory() {
   const filtered = getFilteredGuns();
-
-  // 按 category 分组
   const categoryOrder = ['突击步枪', '冲锋枪', '狙击步枪', '精确射手步枪', '轻机枪', '霰弹枪', '手枪', '特殊武器'];
   const grouped = {};
 
@@ -58,14 +56,12 @@ function getFilteredByCategory() {
     grouped[cat].push(gun);
   });
 
-  // 按顺序返回
   const result = [];
   categoryOrder.forEach(cat => {
     if (grouped[cat] && grouped[cat].length > 0) {
       result.push({ category: cat, guns: grouped[cat] });
     }
   });
-  // 处理不在预设顺序里的分类
   Object.keys(grouped).forEach(cat => {
     if (!categoryOrder.includes(cat)) {
       result.push({ category: cat, guns: grouped[cat] });
@@ -87,38 +83,55 @@ function render() {
 
   emptyState.style.display = 'none';
 
-  codeList.innerHTML = grouped.map(group => `
-    <div class="category-section">
-      <h2 class="category-title">${escapeHTML(group.category)}</h2>
-      ${group.guns.map(gun => `
-        <div class="gun-group">
-          <div class="gun-group-header">
-            <span class="gun-group-name">${escapeHTML(gun.name)}</span>
-            <span class="gun-group-count">${gun.codes.length} 个码</span>
-          </div>
-          <div class="code-cards">
-            ${gun.codes.map(code => `
-              <div class="code-card">
-                <div class="code-info">
-                  <div class="code-text">${escapeHTML(code.code)}</div>
-                  <div class="code-desc">${escapeHTML(code.description)}</div>
-                  <div class="code-value">¥${code.value.toLocaleString()}</div>
-                </div>
-                <button class="copy-btn" data-code="${escapeHTML(code.code)}">
-                  📋 复制
-                </button>
-              </div>
-            `).join('')}
-          </div>
-        </div>
-      `).join('')}
-    </div>
-  `).join('');
+  let html = '';
+  grouped.forEach(group => {
+    html += '<div class="category-section">';
+    html += '<h2 class="category-title">' + escapeHTML(group.category) + '</h2>';
+    group.guns.forEach(gun => {
+      html += '<div class="gun-group">';
+      html += '<div class="gun-group-header" onclick="toggleGunGroup(this)">';
+      html += '<span class="gun-group-arrow">▶</span>';
+      html += '<span class="gun-group-name">' + escapeHTML(gun.name) + '</span>';
+      html += '<span class="gun-group-count">' + gun.codes.length + ' 个码</span>';
+      html += '</div>';
+      html += '<div class="code-cards collapsed">';
+      gun.codes.forEach(code => {
+        html += '<div class="code-card">';
+        html += '<div class="code-info">';
+        html += '<div class="code-text">' + escapeHTML(code.code) + '</div>';
+        html += '<div class="code-desc">' + escapeHTML(code.description) + '</div>';
+        html += '<div class="code-value">¥' + code.value.toLocaleString() + '</div>';
+        html += '</div>';
+        html += '<button class="copy-btn" data-code="' + escapeHTML(code.code) + '">📋 复制</button>';
+        html += '</div>';
+      });
+      html += '</div>';
+      html += '</div>';
+    });
+    html += '</div>';
+  });
+
+  codeList.innerHTML = html;
 
   // 绑定复制按钮事件
   document.querySelectorAll('.copy-btn').forEach(btn => {
     btn.addEventListener('click', handleCopy);
   });
+}
+
+// ===== 折叠/展开切换 =====
+function toggleGunGroup(header) {
+  const arrow = header.querySelector('.gun-group-arrow');
+  const cards = header.nextElementSibling;
+  const isCollapsed = cards.classList.contains('collapsed');
+
+  if (isCollapsed) {
+    cards.classList.remove('collapsed');
+    arrow.textContent = '▼';
+  } else {
+    cards.classList.add('collapsed');
+    arrow.textContent = '▶';
+  }
 }
 
 // ===== HTML 转义 =====
@@ -144,7 +157,6 @@ async function handleCopy(e) {
       btn.textContent = '📋 复制';
     }, 1500);
   } catch {
-    // 降级方案
     const textarea = document.createElement('textarea');
     textarea.value = code;
     textarea.style.position = 'fixed';

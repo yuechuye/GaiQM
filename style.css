@@ -182,7 +182,20 @@ body {
   border-bottom: 1px solid var(--color-border);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.gun-group-header:hover {
+  background: var(--color-bg);
+}
+
+.gun-group-arrow {
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+  transition: transform 0.2s;
 }
 
 .gun-group-name {
@@ -201,6 +214,10 @@ body {
 /* ===== 码卡片 ===== */
 .code-cards {
   padding: 10px 12px;
+}
+
+.code-cards.collapsed {
+  display: none;
 }
 
 .code-card {
